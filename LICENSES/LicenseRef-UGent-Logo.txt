@@ -1,0 +1,7 @@
+© Ghent University <juridischezaken@ugent.be>, all rights reserved.
+
+The UGent logo is a trademark of Ghent University and is protected by trademark laws.
+It is used in the STACIE documentation to indicate affiliation with Ghent University,
+in line with Ghent University's guidelines for logo usage:
+
+https://styleguide.ugent.be/basic-principles/logos-and-faculty-icons.html

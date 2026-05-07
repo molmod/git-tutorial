@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-License-Identifier: CC-BY-4.0
+
+# IDEs and development tools
+.idea
+.vscode
+.ruff_cache
+
+# Outputs
+*.pdf

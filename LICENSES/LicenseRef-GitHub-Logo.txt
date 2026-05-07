@@ -1,0 +1,5 @@
+The GitHub logo is a trademark of GitHub, Inc. and is protected by trademark laws.
+
+It is used to link to GitHub repositories and profiles in the STACIE documentation,
+in line with GitHub's guidelines for logo usage:
+https://brand.github.com/foundations/logo

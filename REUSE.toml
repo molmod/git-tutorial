@@ -1,0 +1,39 @@
+# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-License-Identifier: CC-BY-4.0
+
+version = 1
+
+# Most SVGs, except the ones below, were created by the author.
+[[annotations]]
+path = "slides/*.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "© Toon Verstraelen"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# The GitHub logo is a trademark of GitHub, Inc. and is protected by trademark laws.
+[[annotations]]
+path = "slides/logo-github.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "© GitHub, Inc."
+SPDX-License-Identifier = "LicenseRef-GitHub-Logo"
+
+# See https://git-scm.com/community/logos for the Git logo and its license.
+[[annotations]]
+path = "slides/logo-git.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "© Jason Long"
+SPDX-License-Identifier = "CC-BY-3.0"
+
+# The CMM logo was drawn by Toon Verstraelen.
+[[annotations]]
+path = "slides/logo-cmm.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "© Toon Verstraelen <Toon.Verstraelen@UGent.be>"
+SPDX-License-Identifier = "LicenseRef-CMM-Logo"
+
+# The UGent logo can be used by its employees and students, but not by third parties.
+[[annotations]]
+path = "slides/logo-ugent.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "© Ghent University <juridischezaken@ugent.be>"
+SPDX-License-Identifier = "LicenseRef-UGent-Logo"
