@@ -1,5 +1,9 @@
 // SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 // SPDX-License-Identifier: CC-BY-4.0
+
+// This template is based on the Metropolis theme included in Touying:
+// https://github.com/touying-typ/touying/blob/main/themes/metropolis.typ
+
 #import "@preview/touying:0.7.3": *
 
 // Some UGent-specific constants
@@ -136,16 +140,53 @@
   touying-slide(self: self, body)
 })
 
+#let outline-slide(
+  config: (:),
+  level: 1,
+  title: [Outline],
+  spacing: 1em,
+  ..args,
+) = slide(title: title, config: config, self => {
+  let named-args = args.named()
+  let indent = if not "indent" in named-args.keys() { (1em,) } else {
+    named-args.remove("indent")
+  }
+  if type(indent) != array {
+    indent = (indent,)
+  }
+  let vspace = if not "vspace" in named-args.keys() {
+    (spacing, spacing / 3, spacing / 3, spacing / 3)
+  } else { named-args.remove("vspace") }
+  let numbered = if not "numbered" in named-args.keys() { (true,) } else {
+    named-args.remove("numbered")
+  }
+  let numbering = if not "numbering" in named-args.keys() { ("1.",) } else {
+    named-args.remove("numbering")
+  }
+  show link: set text(fill: black)
+  components.custom-progressive-outline(
+    title: none,
+    depth: if level != auto { level } else { self.slide-level },
+    level: level,
+    indent: indent,
+    vspace: vspace,
+    numbered: numbered,
+    numbering: numbering,
+    ..args.pos(),
+    ..named-args,
+  )
+})
+
 #let new-section-slide(
   config: (:),
   level: 1,
-  numbered: true,
+  numbered: false,
   body,
 ) = touying-slide-wrapper(self => {
   let slide-body = {
     set std.align(horizon)
     show: pad.with(20%)
-    set text(size: 1.5em)
+    set text(size: 2em)
     stack(
       dir: ttb,
       spacing: 1em,
@@ -221,7 +262,8 @@
   )
   show math.equation: set text(font: "Fira Math")
   show raw: set text(font: "Fira Code")
-  show link: it => { underline(text(blue.darken(20%))[#it]) }
+  // show link: it => { underline(text(blue)[#it]) }
+  show link: set text(blue)
   set list(marker: [--])
 
   show: touying-slides.with(
@@ -259,7 +301,6 @@
       footer-right: footer-right,
       footer-progress: footer-progress,
     ),
-
     ..args,
   )
 

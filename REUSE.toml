@@ -3,9 +3,19 @@
 
 version = 1
 
+# PNGs were created by the author.
+[[annotations]]
+path = "*.png"
+precedence = "override"
+SPDX-FileCopyrightText = "© Toon Verstraelen"
+SPDX-License-Identifier = "CC-BY-4.0"
+
 # Most SVGs, except the ones below, were created by the author.
 [[annotations]]
-path = "slides/*.svg"
+path = [
+    "*.svg",
+    "slides/*.svg",
+]
 precedence = "override"
 SPDX-FileCopyrightText = "© Toon Verstraelen"
 SPDX-License-Identifier = "CC-BY-4.0"

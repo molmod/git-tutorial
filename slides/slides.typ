@@ -11,6 +11,8 @@
 
 #title-slide()
 
+= Basic concepts
+
 == Git = A _distributed_ version control system
 
 - *Why?* Collaborative development
@@ -27,7 +29,7 @@
 *Widely applied* in research & education to ...
 
 - Develop simulation software
-- Write courses, articles, theses, presentations, ... (LaTeX or Typst)
+- Write courses, articles, theses, presentations, etc.
 - Manage research data
 
 *Enables*
@@ -81,7 +83,7 @@
   ]
 )
 
-== Git repository = directed graph of "commits"
+== Git repository = directed acyclic graph of "commits"
 
 #align(center, image("git_repository_1.svg"))
 
@@ -89,7 +91,7 @@
 
 - ... has a hexadecimal "hash"
 - ... holds metadata (author, timestamp, parents, children, ...)
-- ... contains a full copy of all files in working tree at that time
+- ... represents a full snapshot of the working tree at that time
 
 == Git branches refer to commits
 
@@ -107,7 +109,7 @@
 - Add modified files to the _staging area_.
 - "Commit" the staged files $=>$ New commit after current *HEAD*.
 
-== Git in the terminal = most powerful
+== Git in the terminal = most complete interface
 
 Minimal example:
 
@@ -122,7 +124,8 @@ git add README.md
 git commit -m "Make README more friendly."
 ```
 
-There are $approx$ 260 `git` sub-commands. (I use $approx$ 25 of them.)
+Git has many subcommands (> 100).
+You only need a handful frequently.
 
 == Distributed?
 
@@ -159,7 +162,7 @@ There are $approx$ 260 `git` sub-commands. (I use $approx$ 25 of them.)
     *GitHub*
  #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-github.svg", width: 1cm))
 
-    - Web interface to Git
+    - Collaboration platform built on top of Git
     - Commercial product
     - Public = https://github.com
     - Internal = https://github.ugent.be
@@ -168,18 +171,76 @@ There are $approx$ 260 `git` sub-commands. (I use $approx$ 25 of them.)
   ]
 )
 
-== GitHub: key features
+== github.ugent.be
 
-*UGent GitHub has:*
+*For internal use only:*
+
+- Only accessible with UGent account
+- Data remains on-premises
+- Research or education (not administration)
+
+*Basic GitHub features:*
 
 - Visualization of a Git repository
-- Simple file edits (not recommended)
+- Simple file edits
 - Issue tracker
 - Pull requests
-- Management features (permissions)
+- Management (permissions, teams, ...)
 
-*Public GitHub has more:*
+== github.com
+
+Anyone can create an account
+
+*Goes beyond basic GitHub features:*
 
 - Continuous integration, a.k.a. "Actions"
-- Copilot
+- Copilot + VSCode integration
+- GitHub Pages
+- Public profile
 - ...
+
+== Data management aspects
+
+*License:*
+
+- Define it at the very start (first commit).
+- Bare minimum: `LICENSE` file + mention in `README.md`.
+- Tutorial repo applies #link("https://reuse.software")[REUSE] recommendations.
+
+*Suggest citations for a Git Repo:*
+
+- Use `CITATION.cff` file (https://citation-file-format.github.io/)
+
+*GitHub $!=$ Zenodo*
+
+- GitHub: live data
+- Zenodo: read-only deposits
+
+== Quality Assurance
+
+Recommended from *Day 1*:
+
+- Use a `.gitignore` file to avoid committing unnecessary files.
+- Use a `.editorconfig` file to ensure consistent formatting.
+- Use a `.pre-commit-config.yaml` file to automatically check code quality before committing. See https://pre-commit.com/ for more details.
+
+Later, you can also consider:
+
+- Continuous integration (e.g. GitHub Actions) to automatically run tests on new commits.
+
+= Hands-on
+
+== Links
+
+https://github.com/molmod/git-tutorial
+
+- This presentation
+- Two step-by-step guides:
+  + Basic GitHub usage
+  + Terminal Git usage
+
+https://github.com/molmod/sandbox
+
+  Private repository for experimentation.
+
+  (You should all have read access. Accept the invitation if you haven't already.)

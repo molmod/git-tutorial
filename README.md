@@ -3,13 +3,19 @@ SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-![License](https://img.shields.io/github/license/reproducible-reporting/bootstrap)
-[![Reproducible Reporting](https://raw.githubusercontent.com/reproducible-reporting/.github/main/profile/logo.svg)](https://github.com/reproducible-reporting)
+![License](https://img.shields.io/github/license/molmod/git-tutorial)
+[![Publish Slides](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml/badge.svg)](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml)
 
 # CMM Git(Hub) tutorial
 
-The tutorial slides are built with GitHub actions and Typst and are available in the releases section of this repository.
-The source code for the slides is in the `slides` directory.
+## Overview
+
+This repository contains the source materials for the CMM Git(Hub) tutorial.
+
+1. Start with the tutorial slides, which are available in the releases section of this repository.
+   (These will be presented during the live tutorial session.)
+1. Then get a basic understanding of GitHub's features by following [`handson_web.md`](handson_web.md).
+1. Finally, dive into the command-line usage of Git with the hands-on tutorial in [`handson_cli.md`](handson_cli.md).
 
 ## License
 

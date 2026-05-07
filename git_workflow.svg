@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="138.494mm"
+   height="148.521mm"
+   viewBox="0 0 138.494 148.52099"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="git_workflow.svg"
+   inkscape:export-filename="git_workflow_two_remotes.png"
+   inkscape:export-xdpi="90.017776"
+   inkscape:export-ydpi="90.017776"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path63877" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.35932"
+     inkscape:cx="267.02609"
+     inkscape:cy="301.78186"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     fit-margin-top="3"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-bottom="3"
+     inkscape:window-width="3440"
+     inkscape:window-height="1350"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:export-bgcolor="#ffffffff">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="138.494"
+       height="148.521"
+       id="page3"
+       margin="1"
+       bleed="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     transform="translate(-2.0000001,-8.2749146)"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#888888;stroke-width:0.264583"
+       x="111.71169"
+       y="12.334334"
+       id="text41240-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
+         x="111.71169"
+         y="12.334334"
+         id="tspan51652-9">Online repositories</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect3"
+       width="138.494"
+       height="148.521"
+       x="1.9999996"
+       y="8.2749157" />
+  </g>
+  <g
+     inkscape:label="Drawing"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.159737,-28.983764)">
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="40.235916"
+       y="30.71665"
+       id="text31259"><tspan
+         sodipodi:role="line"
+         id="tspan31257"
+         style="stroke-width:0.264583"
+         x="40.235916"
+         y="30.71665" /></text>
+    <rect
+       style="fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="rect844"
+       width="55"
+       height="62.62257"
+       x="26.409737"
+       y="65.958847"
+       rx="5"
+       ry="5" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="M 30.909739,123.77282 V 81.1657"
+       id="path29602" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 28.909738,75.542424 H 78.909739"
+       id="path1053" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="53.999271"
+       y="72.43541"
+       id="text4492"><tspan
+         sodipodi:role="line"
+         id="tspan4490"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="53.999271"
+         y="72.43541">.../sandbox/</tspan></text>
+    <circle
+       style="fill:#d62728;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="path7328"
+       cx="30.909739"
+       cy="80.774551"
+       r="2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="35.004444"
+       y="81.769386"
+       id="text7558"><tspan
+         sodipodi:role="line"
+         id="tspan7556"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="35.004444"
+         y="81.769386">working tree</tspan></text>
+    <circle
+       style="fill:#2ca02c;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14336"
+       cx="30.909739"
+       cy="86.899551"
+       r="2" />
+    <circle
+       style="fill:#bcbd22;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14356"
+       cx="30.909739"
+       cy="93.024551"
+       r="2" />
+    <path
+       id="path29761"
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 30.909739,123.77282 3.999997,-6.24828 -3.999997,-6.12499 3.999998,-6.125 -3.999998,-6.124999"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14376"
+       cx="30.909739"
+       cy="99.149551"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14396"
+       cx="34.909737"
+       cy="105.27455"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14398"
+       cx="30.909739"
+       cy="111.39955"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14400"
+       cx="34.909737"
+       cy="117.52454"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle14402"
+       cx="30.909739"
+       cy="123.64954"
+       r="2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="35.007973"
+       y="88.254219"
+       id="text14408"><tspan
+         sodipodi:role="line"
+         id="tspan14406"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="35.007973"
+         y="88.254219">index</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="35.015026"
+       y="94.088173"
+       id="text16024"><tspan
+         sodipodi:role="line"
+         id="tspan16022"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="35.015026"
+         y="94.088173"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan5071">Clean up favorites</tspan> [HEAD]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="34.990334"
+       y="99.989159"
+       id="text11899"><tspan
+         sodipodi:role="line"
+         id="tspan11897"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="34.990334"
+         y="99.989159">Merge #51</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="39.078594"
+       y="106.27467"
+       id="text19527"><tspan
+         sodipodi:role="line"
+         id="tspan19525"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="39.078594"
+         y="106.27467">Add my favorite animal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="34.990334"
+       y="112.23916"
+       id="text20615"><tspan
+         sodipodi:role="line"
+         id="tspan20613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="34.990334"
+         y="112.23916">Merge #50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="39.078594"
+       y="118.52467"
+       id="text25097"><tspan
+         sodipodi:role="line"
+         id="tspan25095"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="39.078594"
+         y="118.52467">Add my favorite food</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="34.990334"
+       y="124.48915"
+       id="text27955"><tspan
+         sodipodi:role="line"
+         id="tspan27953"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="34.990334"
+         y="124.48915">...</tspan></text>
+    <rect
+       style="fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="rect41232"
+       width="55"
+       height="56.295773"
+       x="107.40382"
+       y="41.958847"
+       rx="5"
+       ry="5" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="M 111.90382,92.522824 V 62.1657"
+       id="path41234" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 109.90382,56.542424 h 50"
+       id="path41236" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="134.88286"
+       y="48.435406"
+       id="text41240"><tspan
+         sodipodi:role="line"
+         id="tspan41238"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="134.88286"
+         y="48.435406">git@github.com:</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="134.88286"
+         y="53.197891"
+         id="tspan51652">tovrstra/sandbox.git</tspan></text>
+    <circle
+       style="fill:#bcbd22;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41250"
+       cx="111.90382"
+       cy="61.774555"
+       r="2" />
+    <path
+       id="path41252"
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 111.90382,92.522823 4,-6.248276 -4,-6.124992 4,-6.125001 -4,-6.124999"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41254"
+       cx="111.90382"
+       cy="67.899551"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41256"
+       cx="115.90382"
+       cy="74.024559"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41258"
+       cx="111.90382"
+       cy="80.149559"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41260"
+       cx="115.90382"
+       cy="86.274551"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle41262"
+       cx="111.90382"
+       cy="92.399551"
+       r="2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="116.00911"
+       y="62.838177"
+       id="text41272"><tspan
+         sodipodi:role="line"
+         id="tspan41270"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="116.00911"
+         y="62.838177"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan41268">Clean up favorites</tspan> [HEAD]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="68.739166"
+       id="text41276"><tspan
+         sodipodi:role="line"
+         id="tspan41274"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="68.739166">Merge #51</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="120.07268"
+       y="75.024681"
+       id="text41280"><tspan
+         sodipodi:role="line"
+         id="tspan41278"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="120.07268"
+         y="75.024681">Add my favorite animal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="80.989166"
+       id="text41284"><tspan
+         sodipodi:role="line"
+         id="tspan41282"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="80.989166">Merge #50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="120.07268"
+       y="87.274673"
+       id="text41288"><tspan
+         sodipodi:role="line"
+         id="tspan41286"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="120.07268"
+         y="87.274673">Add my favorite food</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="93.239159"
+       id="text41292"><tspan
+         sodipodi:role="line"
+         id="tspan41290"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="93.239159">...</tspan></text>
+    <rect
+       style="fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="rect55672"
+       width="55"
+       height="56.295773"
+       x="107.40382"
+       y="119.95884"
+       rx="5"
+       ry="5" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="M 111.90382,170.52282 V 140.1657"
+       id="path55674" />
+    <path
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 109.90382,134.54242 h 50"
+       id="path55676" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="134.76094"
+       y="126.43541"
+       id="text55682"><tspan
+         sodipodi:role="line"
+         id="tspan55678"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="134.76094"
+         y="126.43541">git@github.com:</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="134.76094"
+         y="131.19789"
+         id="tspan55680">molmod/sandbox.git</tspan></text>
+    <circle
+       style="fill:#bcbd22;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55684"
+       cx="111.90382"
+       cy="139.77455"
+       r="2" />
+    <path
+       id="path55686"
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 111.90382,170.52282 4,-6.24827 -4,-6.125 4,-6.125 -4,-6.125"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55688"
+       cx="111.90382"
+       cy="145.89955"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55690"
+       cx="115.90382"
+       cy="152.02457"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55692"
+       cx="111.90382"
+       cy="158.14957"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55694"
+       cx="115.90382"
+       cy="164.27455"
+       r="2" />
+    <circle
+       style="fill:#1f77b4;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
+       id="circle55696"
+       cx="111.90382"
+       cy="170.39955"
+       r="2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="116.00911"
+       y="140.83818"
+       id="text55702"><tspan
+         sodipodi:role="line"
+         id="tspan55700"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="116.00911"
+         y="140.83818"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan55698">Clean up favorites</tspan> [HEAD]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="146.73917"
+       id="text55706"><tspan
+         sodipodi:role="line"
+         id="tspan55704"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="146.73917">Merge #51</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="120.07268"
+       y="153.02469"
+       id="text55710"><tspan
+         sodipodi:role="line"
+         id="tspan55708"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="120.07268"
+         y="153.02469">Add my favorite animal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="158.98917"
+       id="text55714"><tspan
+         sodipodi:role="line"
+         id="tspan55712"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="158.98917">Merge #50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="120.07268"
+       y="165.27467"
+       id="text55718"><tspan
+         sodipodi:role="line"
+         id="tspan55716"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="120.07268"
+         y="165.27467">Add my favorite food</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="115.98441"
+       y="171.23917"
+       id="text55722"><tspan
+         sodipodi:role="line"
+         id="tspan55720"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="115.98441"
+         y="171.23917">...</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f2f2f2;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 94.406778,30.003921 V 176.34794"
+       id="path62708" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 146.08571,117.32151 V 101.13618"
+       id="path63854" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="148.92006"
+       y="113.8521"
+       id="text65782"><tspan
+         sodipodi:role="line"
+         id="tspan65780"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
+         x="148.92006"
+         y="113.8521">Fork</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 142.08571,100.73778 v 16.18533"
+       id="path67546" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="138.76331"
+       y="107.26893"
+       id="text67550"><tspan
+         sodipodi:role="line"
+         id="tspan67548"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         x="138.76331"
+         y="107.26893">Pull request</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         x="138.76331"
+         y="112.03142"
+         id="tspan67904">&amp; Merge</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 104.87347,128.9647 84.208793,116.69672"
+       id="path71661"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="89.549042"
+       y="135.5067"
+       id="text71764"><tspan
+         sodipodi:role="line"
+         id="tspan71762"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
+         x="89.549042"
+         y="135.5067">Clone</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 104.87078,69.62687 84.206095,81.89485"
+       id="path75066"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="94.451546"
+       y="89.995537"
+       id="text75070"><tspan
+         sodipodi:role="line"
+         id="tspan75068"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         x="94.451546"
+         y="89.995537">Add</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         x="94.451546"
+         y="94.758026"
+         id="tspan75460">second</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         x="94.451546"
+         y="99.520508"
+         id="tspan75462">remote</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 83.942783,73.89485 104.60746,61.62687"
+       id="path77568"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="94.380112"
+       y="59.803955"
+       id="text77576"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         x="94.380112"
+         y="59.803955"
+         id="tspan77574">Push</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect89074"
+       width="5.2830243"
+       height="5.2830243"
+       x="150.14949"
+       y="104.26605"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="152.78853"
+       y="108.5769"
+       id="text81205"><tspan
+         sodipodi:role="line"
+         id="tspan81203"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="152.78853"
+         y="108.5769">A</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect89265"
+       width="5.2830243"
+       height="5.2830243"
+       x="91.765266"
+       y="126.06146"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="94.407501"
+       y="130.37231"
+       id="text89269"><tspan
+         sodipodi:role="line"
+         id="tspan89267"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="94.407501"
+         y="130.37231">B</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect92579"
+       width="5.2830243"
+       height="5.2830243"
+       x="91.765266"
+       y="80.830818"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="94.203903"
+       y="85.141678"
+       id="text92583"><tspan
+         sodipodi:role="line"
+         id="tspan92581"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="94.203903"
+         y="85.141678">C</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect96267"
+       width="5.2830243"
+       height="5.2830243"
+       x="91.765266"
+       y="50.549911"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="94.203903"
+       y="54.860767"
+       id="text96271"><tspan
+         sodipodi:role="line"
+         id="tspan96269"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="94.203903"
+         y="54.860767">D</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect98799"
+       width="5.2830243"
+       height="5.2830243"
+       x="111.68605"
+       y="103.31422"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="114.36221"
+       y="107.62508"
+       id="text98803"><tspan
+         sodipodi:role="line"
+         id="tspan98801"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="114.36221"
+         y="107.62508">E</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 104.87347,148.9647 84.208793,136.69672"
+       id="path132602"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       x="97.550026"
+       y="156.05887"
+       id="text132608"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         x="97.550026"
+         y="156.05887"
+         id="tspan132606">Pull</tspan></text>
+    <rect
+       style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect132610"
+       width="5.2830243"
+       height="5.2830243"
+       x="91.765266"
+       y="146.01016"
+       rx="0.30000046"
+       ry="0.30000046" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="94.441437"
+       y="150.32101"
+       id="text132614"><tspan
+         sodipodi:role="line"
+         id="tspan132612"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="94.441437"
+         y="150.32101">F</tspan></text>
+    <rect
+       style="fill:#7f7f7f;fill-rule:evenodd;stroke:none;stroke-width:4.99999;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect8164"
+       width="14.862411"
+       height="5.8792176"
+       x="104.11436"
+       y="117.30399"
+       rx="1.4958955"
+       ry="1.4958955" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
+       x="105.49897"
+       y="121.4305"
+       id="text3034"><tspan
+         sodipodi:role="line"
+         id="tspan3032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
+         x="105.49897"
+         y="121.4305">&quot;origin&quot;</tspan></text>
+    <rect
+       style="fill:#7f7f7f;fill-rule:evenodd;stroke:none;stroke-width:4.99999;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect8413"
+       width="16.523907"
+       height="5.8792176"
+       x="104.11436"
+       y="38.872746"
+       rx="1.6631243"
+       ry="1.6631243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
+       x="105.49897"
+       y="42.999249"
+       id="text8417"><tspan
+         sodipodi:role="line"
+         id="tspan8415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
+         x="105.49897"
+         y="42.999249">&quot;myfork&quot;</tspan></text>
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.868479,55.638788 c -0.667778,0 -1.485447,0.272907 -1.819336,0.607225 l -4,4.005143 c -0.333889,0.334318 -0.06036,0.606247 0.607421,0.606247 h 13 c 0.667779,0 1.482518,-0.271929 1.816407,-0.606247 l 4,-4.005143 c 0.333889,-0.334318 0.06329,-0.607225 -0.604492,-0.607225 z m -0.211915,0.212187 h 13 c 0.440221,0 0.612689,0.174645 0.392579,0.395038 l -4,4.005143 c -0.22011,0.220393 -0.740443,0.39406 -1.180664,0.39406 h -13 c -0.44022,0 -0.615619,-0.173667 -0.395508,-0.39406 l 4,-4.005143 c 0.22011,-0.220393 0.743373,-0.395038 1.183593,-0.395038 z"
+       id="rect34231" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.868479,55.902733 c -0.667778,0 -1.485447,0.272907 -1.819336,0.607225 l -4,4.005143 c -0.333889,0.334318 -0.06036,0.606247 0.607421,0.606247 h 13 c 0.667779,0 1.482518,-0.271929 1.816407,-0.606247 l 4,-4.005143 c 0.333889,-0.334318 0.06329,-0.607225 -0.604492,-0.607225 z m -0.211915,0.212187 h 13 c 0.440221,0 0.612689,0.174645 0.392579,0.395038 l -4,4.005143 c -0.22011,0.220393 -0.740443,0.39406 -1.180664,0.39406 h -13 c -0.44022,0 -0.615619,-0.173667 -0.395508,-0.39406 l 4,-4.005143 c 0.22011,-0.220393 0.743373,-0.395038 1.183593,-0.395038 z"
+       id="rect34049" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.762216,45.306219 c -0.634504,-10e-7 -1.15039,0.515885 -1.15039,1.15039 v 8 c 0,0.634505 0.515886,1.150391 1.15039,1.150391 h 13 c 0.634505,0 1.150391,-0.515886 1.150391,-1.150391 v -8 c 0,-0.634505 -0.515886,-1.150391 -1.150391,-1.15039 z m 0,0.300781 h 13 c 0.473494,0 0.84961,0.376115 0.84961,0.849609 v 8 c 0,0.473494 -0.376116,0.849609 -0.84961,0.849609 h -13 c -0.473494,0 -0.849609,-0.376115 -0.849609,-0.849609 v -8 c 0,-0.473494 0.376115,-0.849609 0.849609,-0.849609 z"
+       id="rect32265" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 50.762216,46.306218 c -0.634504,0 -1.15039,0.515886 -1.15039,1.150391 v 6 c 0,0.634505 0.515886,1.150391 1.15039,1.150391 h 11 c 0.634505,0 1.150391,-0.515886 1.150391,-1.150391 v -6 c 0,-0.634505 -0.515886,-1.150391 -1.150391,-1.150391 z m 0,0.300782 h 11 c 0.473494,0 0.84961,0.376115 0.84961,0.849609 v 6 c 0,0.473494 -0.376116,0.849609 -0.84961,0.849609 h -11 c -0.473494,0 -0.849609,-0.376115 -0.849609,-0.849609 v -6 c 0,-0.473494 0.376115,-0.849609 0.849609,-0.849609 z"
+       id="rect32401" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-rule:evenodd;stroke-width:0.3;-inkscape-stroke:none;paint-order:markers fill stroke"
+       d="m 49.762094,55.465037 h 13 c 0.554,0 0.777,0.223287 0.5,0.500643 l -4,4.005143 c -0.277,0.277356 -0.946,0.500642 -1.5,0.500642 h -13 c -0.554,0 -0.777,-0.223286 -0.5,-0.500642 l 4,-4.005143 c 0.277,-0.277356 0.946,-0.500643 1.5,-0.500643 z"
+       id="path63330" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:markers fill stroke"
+       d="m 49.868479,55.358638 c -0.667778,0 -1.485447,0.272907 -1.819336,0.607225 l -4,4.005143 c -0.333889,0.334318 -0.06036,0.606247 0.607421,0.606247 h 13 c 0.667779,0 1.482518,-0.271929 1.816407,-0.606247 l 4,-4.005143 c 0.333889,-0.334318 0.06329,-0.607225 -0.604492,-0.607225 z m -0.211915,0.212187 h 13 c 0.440221,0 0.612689,0.174645 0.392579,0.395038 l -4,4.005143 c -0.22011,0.220393 -0.740443,0.39406 -1.180664,0.39406 h -13 c -0.44022,0 -0.615619,-0.173667 -0.395508,-0.39406 l 4,-4.005143 c 0.22011,-0.220393 0.743373,-0.395038 1.183593,-0.395038 z"
+       id="path63332" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 48.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32711" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 51.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 50.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32815" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 53.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 52.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32817" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 55.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 54.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32819" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 57.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 56.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32821" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 59.66926,55.859281 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 58.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32823" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 59.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 58.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32825" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 57.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 56.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32827" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 55.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 54.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32829" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 53.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 52.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32831" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 51.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 50.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32835" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.66926,56.860566 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 48.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32837" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 47.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701095 c -0.02621,0.02624 -0.07942,0.044 -0.131836,0.044 H 46.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32839" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 49.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700196,0.701095 c -0.02621,0.02624 -0.07941,0.044 -0.131834,0.044 H 48.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32841" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 51.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700196,0.701095 c -0.02621,0.02624 -0.07941,0.044 -0.131834,0.044 H 50.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32843" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 53.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700196,0.701095 c -0.02621,0.02624 -0.07941,0.044 -0.131834,0.044 H 52.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect32845" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 55.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700196,0.701095 c -0.02621,0.02624 -0.07941,0.044 -0.131834,0.044 H 54.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33521" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 57.66926,57.861852 c -0.279978,0 -0.629542,0.11602 -0.769531,0.256189 l -0.700196,0.701095 c -0.139989,0.140169 -0.02217,0.256189 0.257813,0.256189 h 1.398437 c 0.279979,0 0.62759,-0.11602 0.767579,-0.256189 l 0.700195,-0.701095 c 0.139989,-0.140169 0.02412,-0.256189 -0.255859,-0.256189 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700196,0.701095 c -0.02621,0.02624 -0.07941,0.044 -0.131834,0.044 H 56.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701095 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33523" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 57.66926,58.863138 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 56.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33525" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 48.66926,58.863138 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 8.398437 c 0.279978,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 8.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 47.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33527" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 46.66926,58.863138 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 45.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33529" />
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
+       d="m 46.66926,58.863138 c -0.279978,0 -0.629542,0.116019 -0.769531,0.256188 l -0.700196,0.701096 c -0.139989,0.140169 -0.02217,0.256188 0.257813,0.256188 h 1.398437 c 0.279979,0 0.62759,-0.116019 0.767579,-0.256188 l 0.700195,-0.701096 c 0.139989,-0.140169 0.02412,-0.256188 -0.255859,-0.256188 z m -0.211914,0.212187 h 1.398437 c 0.05242,0 0.07015,0.01776 0.04395,0.044 l -0.700195,0.701096 c -0.02621,0.02624 -0.07942,0.044 -0.131835,0.044 H 45.66926 c -0.05242,0 -0.07211,-0.01776 -0.0459,-0.044 l 0.700196,-0.701096 c 0.02621,-0.02624 0.08137,-0.044 0.133785,-0.044 z"
+       id="rect33531" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;stroke-width:0.264583"
+       x="50.583862"
+       y="48.660053"
+       id="text34237"><tspan
+         sodipodi:role="line"
+         id="tspan34235"
+         style="font-weight:bold;fill:#7f7f7f"
+         x="50.583862"
+         y="48.660053">&gt; _</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#575757;stroke:none;stroke-width:0.264583"
+       x="56.299259"
+       y="53.266479"
+       id="text4492-6"><tspan
+         sodipodi:role="line"
+         id="tspan4490-7"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#575757;stroke:none;stroke-width:0.264583"
+         x="56.299259"
+         y="53.266479">VSC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="134.88286"
+       y="33.435406"
+       id="text2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
+         x="134.88286"
+         y="33.435406"
+         id="tspan2">Online repositories</tspan></text>
+  </g>
+</svg>
