@@ -201,7 +201,7 @@ You should get something like:
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?
 > ```
 
-Type `yes` and press Enter. You should see the following:
+Type `yes` and press `[Enter]`. You should see the following:
 
 > ```
 > PTY allocation request failed on channel 0
