@@ -16,7 +16,7 @@ Some familiarity with virtual terminals and the [`nano`](https://www.nano-editor
 
 You can also follow the instructions below on any other computer, provided you have the necessary software installed:
 
-- A virtual terminal
+- A virtual terminal running `bash` or `zsh`.
 - A recent version of Git
 - An SSH client
 - A text editor, e.g. `nano`.
@@ -125,7 +125,7 @@ You will see something like this:
 The result is a non-encrypted private key, stored in the default location.
 
 The reason we don't recommend a passphrase is that it only provides limited additional security in exchange for considerable inconvenience.
-Key encryption mainly offers an extra layer of protection in case somebody gains access to your computer.
+Key encryption mainly adds an extra layer of protection in case somebody gains access to your computer.
 This may happen by old-fashioned theft of your hardware, yet spyware is more common.
 When this happens, key encryption offers limited protection, e.g. spyware can also easily steal your passphrase through key-logging.
 Even old-fashioned thieves have [cheap and effective means of recovering your password](https://xkcd.com/538/).
@@ -218,22 +218,24 @@ to interact with a local Git repository on your VSC account.
 A detailed description of all these commands can be found in the [Git Reference Documentation](https://git-scm.com/docs).
 Here we provide a list of the most important commands, a link to their documentation and a one-line summary of what they do.
 
-- [`git config`](https://git-scm.com/docs/git-config): change or view your local Git settings
-- [`git clone`](https://git-scm.com/docs/git-clone): make a local copy of a remote git repository.
-- [`git status`](https://git-scm.com/docs/git-status): show a summary of changed, removed and added files in your work directory.
-- [`git log`](https://git-scm.com/docs/git-log): show the Git history (of your current branch), press `q` to quit.
-- [`git diff`](https://git-scm.com/docs/git-diff): show line-by-line changes between your working directory and the index.
-- [`git add`](https://git-scm.com/docs/git-add): copy a file from your working directory to the index, to prepare a commit.
-- [`git rm`](https://git-scm.com/docs/git-rm): remove a file from the Git repository. (It will remain in the older commits.)
-- [`git mv`](https://git-scm.com/docs/git-mv): move or rename a file in the Git repository.
-- [`git restore`](https://git-scm.com/docs/git-restore): undo `git add`
-- [`git commit`](https://git-scm.com/docs/git-commit): add a commit (a record) with file changes in the index to the Git history (includes author and time metadata)
-- [`git push`](https://git-scm.com/docs/git-push): upload new commits in your local Git history to the server, e.g. github.com
-- [`git pull`](https://git-scm.com/docs/git-pull): download commits from the server to your local repository and bring your working directory up-to-date.
-- [`git fetch`](https://git-scm.com/docs/git-fetch): like `git pull` but without updating your work directory
-- [`git remote`](https://git-scm.com/docs/git-remote): list, inspect or configure repositories on remote servers
-- [`git branch`](https://git-scm.com/docs/git-branch): create, modify and manage Git branches
-- [`git checkout`](https://git-scm.com/docs/git-checkout): change the current branch HEAD and update your working directory.
+| Command                                                 | Summary                                                                       |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [`git config`](https://git-scm.com/docs/git-config)     | change or view your local Git settings                                        |
+| [`git clone`](https://git-scm.com/docs/git-clone)       | make a local copy of a remote git repository.                                 |
+| [`git status`](https://git-scm.com/docs/git-status)     | show a summary of changed, removed and added files in your work directory.    |
+| [`git log`](https://git-scm.com/docs/git-log)           | show the Git history (of your current branch), press `q` to quit.             |
+| [`git diff`](https://git-scm.com/docs/git-diff)         | show line-by-line changes between your working directory and the index.       |
+| [`git add`](https://git-scm.com/docs/git-add)           | copy a file from your working directory to the index, to prepare a commit.    |
+| [`git rm`](https://git-scm.com/docs/git-rm)             | remove a file from the Git repository. (It will remain in the older commits.) |
+| [`git mv`](https://git-scm.com/docs/git-mv)             | move or rename a file in the Git repository.                                  |
+| [`git restore`](https://git-scm.com/docs/git-restore)   | undo `git add`                                                                |
+| [`git commit`](https://git-scm.com/docs/git-commit)     | add a commit with file changes in the index to the Git history                |
+| [`git push`](https://git-scm.com/docs/git-push)         | upload new commits in your local Git history to an online repository          |
+| [`git pull`](https://git-scm.com/docs/git-pull)         | download commits to your local repository and update your working directory.  |
+| [`git fetch`](https://git-scm.com/docs/git-fetch)       | like `git pull` but without updating your work directory                      |
+| [`git remote`](https://git-scm.com/docs/git-remote)     | list, inspect or configure repositories on remote servers                     |
+| [`git branch`](https://git-scm.com/docs/git-branch)     | create, modify and manage Git branches                                        |
+| [`git checkout`](https://git-scm.com/docs/git-checkout) | change the current branch HEAD and update your working directory.             |
 
 Part of Git's steep learning curve comes from the large number of commands needed to interact with a Git repository.
 

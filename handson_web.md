@@ -44,21 +44,19 @@ Markdown is a set of simple rules for writing text files that can be easily rend
 It is designed to be readable when opened as a text file, unlike *markup* languages like HTML or LaTeX, hence its name.
 What you are reading now is also written in Markdown.
 
-Most text in this course is written in Markdown, either in standalone Markdown files, or inside so-called Markdown cells in Jupyter notebooks.
-While Markdown is not strictly tied to Git, the GitHub platform has excellent support for Markdown.
-
 There are plenty of good introductory resources on Markdown:
 
 - [GitHub Markdown practical guide](https://guides.github.com/features/mastering-markdown/).
 - [Markdown overview](https://www.markdownguide.org/)
 
-There is no need to learn the details now. You'll pick it up as you go along.
+You can skip them for now. Markdown is simple enough to pick it up as you go.
 
-Take a look at the file `participants.md` in the sandbox repository, which contains a list of the tutorial participants.
+Take a look at the file [`participants.md`](https://github.com/molmod/sandbox/blob/main/participants.md) in the sandbox repository, which contains a list of the tutorial participants.
 This file is written in Markdown, which can be shown by clicking on "code".
 
 ## Create an Issue
 
+Go to the [sandbox repository](https://github.com/molmod/sandbox).
 Click on **Issues** and open a new issue to report that your favorite food is missing in `participants.md` in the sandbox repository.
 
 - Provide a concise title.
@@ -71,8 +69,9 @@ You should see your issue in the list of issues, together with those of other tu
 
 ## Create a Fork and a Pull request
 
-- Go back to the `participants.md` file, then click on :pencil2:.
-  You are now asked to create a "fork" of the repository, which is a copy of the repository under your own account.
+- Go back to the [`participants.md`](https://github.com/molmod/sandbox/blob/main/participants.md) file, then click on :pencil2:.
+
+  You are now asked to create a **Fork** of the repository, which is a copy of the repository under your own account.
   Click **Fork this repository**.
 
 - Use the web editor to add your favorite food item under your name.
@@ -83,7 +82,13 @@ You should see your issue in the list of issues, together with those of other tu
   - Copilot may write a commit message for you. If not, write a concise message describing your change, e.g., "Add favorite food for [your name]".
 
   - In the description, explain what you changed and why.
-    Include a line `Fixes #XYZ`, where `XYZ` is your issue number.
+    Include a line
+
+    ```text
+    Fixes #XYZ
+    ```
+
+    where `XYZ` is your issue number.
     This number must be prefixed with a `#` without whitespace.
 
   - Click on **Propose changes**.
