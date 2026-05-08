@@ -264,10 +264,10 @@ It will start automatically in new terminal windows after installation.
 
 ## Add your favorite animal to `participants.md`
 
-In this guide, we will practically reproduce the web-based editing of `participants.md`,
+In this guide, we will practically reproduce the web-based editing of [`participants.md`](https://github.com/molmod/sandbox/blob/main/participants.md),
 except that you'll add your favorite animal instead of your favorite food.
 
-Before you start, you can already create a new issue, now reporting that your favorite animal is missing in `participants.md`.
+Before you start, you can already create a new issue, now reporting that your favorite animal is missing in [`participants.md`](https://github.com/molmod/sandbox/blob/main/participants.md).
 To fix this issue, you will use a text editor in the terminal and the `git` command-line interface.
 
 The main steps in the workflow are shown in the following figure:
@@ -322,7 +322,7 @@ To clarify the workflow, each command is preceded by a comment showing the curre
 
    (The older `git checkout -b add-favorite-animal` is equivalent.)
 
-1. Edit the `participants.md` file to add your favorite animal,
+1. Edit the [`participants.md`](https://github.com/molmod/sandbox/blob/main/participants.md) file to add your favorite animal,
    e.g. using the `nano` editor.
 
    ```bash
