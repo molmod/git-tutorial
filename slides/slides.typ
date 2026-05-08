@@ -226,7 +226,7 @@ Recommended from *Day 1*:
 
 Later, you can also consider:
 
-- Continuous integration (e.g. GitHub Actions) to automatically run tests on new commits.
+- Continuous integration (e.g. #link("https://docs.github.com/en/actions")[GitHub Actions]) to automatically run tests on new commits.
 
 = Hands-on
 
