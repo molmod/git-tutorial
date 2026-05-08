@@ -196,8 +196,8 @@ ssh git@github.com
 You should get something like:
 
 > ```
-> The authenticity of host 'github.com (140.82.113.4)' can't be established.
-> ECDSA key fingerprint is SHA256:en/5EHNM0cR+WCAybnlftW+0l13R3m5S9XUjUdXfRvg.
+> The authenticity of host 'github.com (140.82.121.3)' can't be established.
+> ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?
 > ```
 
