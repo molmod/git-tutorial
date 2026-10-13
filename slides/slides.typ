@@ -26,121 +26,168 @@
 
 #outline-slide("basics")
 
-#slide(title: [Git = A _distributed_ version control system])[
+#slide(
+  title: [Git = A _distributed_ version control system],
+  animation: {
+    import anim: *
+    sub(reveal("what"))
+    sub(reveal("how"))
+  },
+)[
   - *Why?* Collaborative development
 
-  - *What?* Shared history of a tree of files
+  #tag("what")[
+    - *What?* Shared history of a tree of files
+  ]
 
-  - *How?*
-    - Software
-    - Database format
-    - Network protocols
+  #tag("how")[
+    - *How?*
+      - Software
+      - Database format
+      - Network protocols
+  ]
 ]
 
-#slide(title: "Why care?")[
+#slide(title: "Why care?", animation: anim.sub(anim.reveal("enables")))[
   *Widely applied* in research & education to ...
 
   - Develop simulation software
   - Write courses, articles, theses, presentations, etc.
   - Manage research data
 
-  *Enables*
+  #tag("enables")[
+    *Enables*
 
-  - Collaboration
-  - Incremental development
-  - Provenance
-  - Attribution
-  - Backup
+    - Collaboration
+    - Incremental development
+    - Provenance
+    - Attribution
+    - Backup
+  ]
 ]
 
-#slide(title: [Anatomy of a _local_ Git "repo(sitory)"])[
+#slide(
+  title: [Anatomy of a _local_ Git "repo(sitory)"],
+  animation: {
+    import anim: *
+    sub(
+      reveal("working"),
+      apply("tree-working", text.with(fill: ugc.green)),
+    )
+    sub(
+      reveal("staging"),
+      apply("tree-git", text.with(weight: "bold", fill: ugc.red)),
+    )
+    sub(reveal("repository"))
+  },
+)[
   #grid(
     columns: 2,
     align: top,
     gutter: 2cm,
     [
       *Example:* \
-      molmod/sandbox
-      #par(leading: 8pt, text(font: fonts.mono, size: 18pt)[
+      `tovrstra/sandbox`
+      #par(leading: 8pt, text(font: "Source Code Pro", size: 18pt, fill: luma(65%))[
         . \
         ├── .git/ \
         │   ├── config \
         │   ├── HEAD \
-        │   ├── #text(weight: "bold", fill: ugt.red)[objects/] \
+        │   ├── #tag("tree-git")[objects/] \
         │   ├── refs/ \
         │   └── ... \
-        ├── #text(fill: ugt.green)[.editorconfig] \
-        ├── #text(fill: ugt.green)[.gitignore] \
-        ├── #text(fill: ugt.green)[.pre-commit-config.yaml] \
-        ├── #text(fill: ugt.green)[README.md] \
-        ├── #text(fill: ugt.green)[add_comments.py] \
-        ├── #text(fill: ugt.green)[participants.md] \
+        ├── #tag("tree-working")[.editorconfig] \
+        ├── #tag("tree-working")[.gitignore] \
+        ├── #tag("tree-working")[.pre-commit-config.yaml] \
+        ├── #tag("tree-working")[README.md] \
+        ├── #tag("tree-working")[add_comments.py] \
+        ├── #tag("tree-working")[participants.md] \
         └── ... \
       ])
     ],
     [
       *Three* locations of your files:
-      #text(size: 20pt, table(
+      #table(
         columns: 3,
         inset: 0.5em,
         table.header(
-          text(weight: "bold", fill: ugt.green)[Working directory],
-          [#text(weight: "bold", fill: ugt.red)[Staging area] (or index)],
-          text(weight: "bold", fill: ugt.red)[Git repository],
+          tag("working", text(weight: "bold", fill: ugc.green)[Working directory]),
+          tag("staging", [#text(weight: "bold", fill: ugc.red)[Staging area] (or index)]),
+          tag("repository", text(weight: "bold", fill: ugc.red)[Git repository]),
         ),
-        [Files being edited],
-        [Version of files to be added to history],
-        [Database with all previous versions of the working directory],
-      ))
+        tag("working")[Files being edited],
+        tag("staging")[Version of files to be added to history],
+        tag("repository")[Database with all previous versions of the working directory],
+      )
     ],
   )
 ]
 
-#slide(title: [Git repository = directed acyclic graph of "commits"])[
+#slide(
+  title: [Git repository = directed acyclic graph of "commits"],
+  animation: anim.sub(anim.reveal("commit")),
+)[
   #align(center, image("git_repository_1.svg"))
 
-  *Each version (called "commit") ...*
+  #tag("commit")[
+    *Each version (called "commit") ...*
 
-  - ... has a hexadecimal "hash"
-  - ... holds metadata (author, timestamp, parents, children, ...)
-  - ... represents a full snapshot of the working tree at that time
+    - ... has a hexadecimal "hash"
+    - ... holds metadata (author, timestamp, parents, children, ...)
+    - ... represents a full snapshot of the working tree at that time
+  ]
 ]
 
-#slide(title: "Git branches refer to commits")[
+#slide(title: "Git branches refer to commits", animation: anim.sub(anim.reveal("branches")))[
   #align(center, image("git_repository_2.svg"))
 
-  - Examples: `alice`, `bob`, `main`, ... + preceding commits
-  - `main` = _default_ branch
-  - `alice` and `bob` temporarily _diverge_, to be _merged_ later.
+  #tag("branches")[
+    - Examples: `alice`, `bob`, `main`, ... + preceding commits
+    - `main` = _default_ branch
+    - `alice` and `bob` temporarily _diverge_, to be _merged_ later.
+  ]
 ]
 
-#slide(title: "Creating new commits")[
+#slide(title: "Creating new commits", animation: anim.sub(anim.reveal("steps")))[
   #align(center, image("git_repository_3.svg"))
 
-  - Modify files in the _working directory_.
-  - Add modified files to the _staging area_.
-  - "Commit" the staged files $=>$ New commit after current *HEAD*.
+  #tag("steps")[
+    - Modify files in the _working directory_.
+    - Add modified files to the _staging area_.
+    - "Commit" the staged files $=>$ New commit after current *HEAD*.
+  ]
 ]
 
-#slide(title: "Git in the terminal = most complete interface")[
+#slide(
+  title: "Git in the terminal = most complete interface",
+  animation: {
+    import anim: *
+    sub(reveal("example"))
+    sub(reveal("subcommands"))
+  },
+)[
   Minimal example:
 
-  ```bash
-  # Add an extra line to the README.md
-  echo "Thank you for reading!" >> README.md
+  #tag("example")[
+    ```bash
+    # Add an extra line to the README.md
+    echo "Thank you for reading!" >> README.md
 
-  # Add the modified file to the staging area
-  git add README.md
+    # Add the modified file to the staging area
+    git add README.md
 
-  # Create a new commit
-  git commit -m "Make README more friendly."
-  ```
+    # Create a new commit
+    git commit -m "Make README more friendly."
+    ```
+  ]
 
-  Git has many subcommands (> 100).
-  You only need a handful frequently.
+  #tag("subcommands")[
+    Git has many subcommands (> 100).
+    You only need a handful frequently.
+  ]
 ]
 
-#slide(title: "Distributed?")[
+#slide(title: "Distributed?", animation: anim.sub(anim.reveal("scaling")))[
   #grid(
     columns: (1fr, 1.5fr),
     gutter: 1cm,
@@ -151,15 +198,15 @@
 
       - Branches can be "pushed" and "pulled"
 
-      *Scaling!* E.g. Linux has 13500 contributors.
+      #tag("scaling")[*Scaling!* E.g. Linux has 13500 contributors.]
     ],
     image("distributed.svg", width: 100%),
   )
 ]
 
-#slide(title: [Git $!=$ GitHub])[
+#slide(title: [Git $!=$ GitHub], animation: anim.sub(anim.reveal("github")))[
   #grid(
-    columns: (2.1fr, 3fr),
+    columns: (1fr, 1fr),
     align: top,
     gutter: 1cm,
     [
@@ -171,78 +218,97 @@
       - Created in 2005 to maintain the Linux source
     ],
     [
-      *GitHub* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-github.svg", width: 1cm))
+      #tag("github")[
+        *GitHub* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-github.svg", width: 1cm))
 
-      - Collaboration platform built on top of Git
-      - Commercial product
-      - Public = https://github.com
-      - Internal = https://github.ugent.be
-      - Company founded in 2007
-      - Bought by Microsoft in 2018
+        - Collaboration platform built on top of Git
+        - Commercial product
+        - Public = https://github.com
+        - Internal = https://github.ugent.be
+        - Company founded in 2007
+        - Bought by Microsoft in 2018
+      ]
     ],
   )
 ]
 
-#slide(title: "github.ugent.be")[
+#slide(title: "github.ugent.be", animation: anim.sub(anim.reveal("features")))[
   *For internal use only:*
 
   - Only accessible with UGent account
   - Data remains on-premises
   - Research or education (not administration)
 
-  *Basic GitHub features:*
+  #tag("features")[
+    *Basic GitHub features:*
 
-  - Visualization of a Git repository
-  - Simple file edits
-  - Issue tracker
-  - Pull requests
-  - Management (permissions, teams, ...)
+    - Visualization of a Git repository
+    - Simple file edits
+    - Issue tracker
+    - Pull requests
+    - Management (permissions, teams, ...)
+  ]
 ]
 
-#slide(title: "github.com")[
+#slide(title: "github.com", animation: anim.sub(anim.reveal("beyond")))[
   Anyone can create an account
 
-  *Goes beyond basic GitHub features:*
+  #tag("beyond")[
+    *Goes beyond basic GitHub features:*
 
-  - Continuous integration, a.k.a. "Actions"
-  - Copilot + VSCode integration
-  - GitHub Pages
-  - Public profile
-  - ...
+    - Continuous integration, a.k.a. "Actions"
+    - Copilot + VSCode integration
+    - GitHub Pages
+    - Public profile
+    - ...
+  ]
 ]
 
-#slide(title: "Data management aspects")[
+#slide(
+  title: "Data management aspects",
+  animation: {
+    import anim: *
+    sub(reveal("citations"))
+    sub(reveal("zenodo"))
+  },
+)[
   *License:*
 
   - Define it at the very start (first commit).
   - Bare minimum: `LICENSE` file + mention in `README.md`.
   - Tutorial repo applies #link("https://reuse.software")[REUSE] recommendations.
 
-  *Suggest citations for a Git Repo:*
+  #tag("citations")[
+    *Suggest citations for a Git Repo:*
 
-  - Use `CITATION.cff` file (https://citation-file-format.github.io/)
+    - Use `CITATION.cff` file (https://citation-file-format.github.io/)
+  ]
 
-  *GitHub $!=$ Zenodo*
+  #tag("zenodo")[
+    *GitHub $!=$ Zenodo*
 
-  - GitHub: live data
-  - Zenodo: read-only deposits
+    - GitHub: live data
+    - Zenodo: read-only deposits
+  ]
 ]
 
-#slide(title: "Quality Assurance")[
+#slide(title: "Quality Assurance", animation: anim.sub(anim.reveal("later")))[
   Recommended from *Day 1*:
 
   - Use a `.gitignore` file to avoid committing unnecessary files.
   - Use a `.editorconfig` file to ensure consistent formatting.
   - Use a `.pre-commit-config.yaml` file to automatically check code quality before committing. See https://pre-commit.com/ for more details.
 
-  Later, you can also consider:
+  #tag("later")[
+    Later, you can also consider:
 
-  - Continuous integration (e.g. #link("https://docs.github.com/en/actions")[GitHub Actions]) to automatically run tests on new commits.
+    - Continuous integration (e.g. #link("https://docs.github.com/en/actions")[GitHub Actions]) to automatically run tests on new commits.
+  ]
 ]
 
 #outline-slide("handson")
 
-#slide(title: "Links")[
+#slide(title: "Links", animation: anim.sub(anim.reveal("sandbox")))[
   https://github.com/molmod/git-tutorial
 
   - This presentation
@@ -250,9 +316,9 @@
     + Basic GitHub usage
     + Terminal Git usage
 
-  https://github.com/molmod/sandbox
+  #tag("sandbox")[
+    https://github.ugent.be/tovrstra/sandbox-261015
 
-  Private repository for experimentation.
-
-  (You should all have read access. Accept the invitation if you haven't already.)
+    Internal UGent repository for experimentation.
+  ]
 ]
