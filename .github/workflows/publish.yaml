@@ -19,33 +19,50 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      # Install Fira Code and Fira Go fonts
-      - name: Download and install Fira Code Release
+      # Fonts used by the UGentish templates.
+      # (Typst finds them in ~/.local/share/fonts)
+      - name: Download and install fonts
         run: |
-          URL="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"
-          curl -L $URL -o firacode.zip
-          unzip firacode.zip -d ./firacode
-          mv ./firacode/ttf/*.ttf /usr/share/fonts/
-      - name: Download and install Fira Go Release
-        run: |
-          URL="https://github.com/bBoxType/FiraGO/releases/download/1.000/bBoxType_FiraGO_1000.zip"
-          curl -L $URL -o firago.zip
-          unzip firago.zip -d ./firago
-          mv ./firago/bBoxType_FiraGO_1000/FiraGO_TTF/*/*.ttf /usr/share/fonts/
+          mkdir -p ~/.local/share/fonts
+          curl -fsSL https://github.com/adobe-fonts/source-sans/releases/download/3.052R/TTF-source-sans-3.052R.zip -o source-sans.zip
+          curl -fsSL "https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/TTF-source-code-pro-2.042R-u_1.062R-i.zip" -o source-code-pro.zip
+          curl -fsSL https://mirrors.ctan.org/fonts/erewhon-math.zip -o erewhon-math.zip
+          unzip -j -o -q source-sans.zip "TTF/*.ttf" -d ~/.local/share/fonts
+          unzip -j -o -q source-code-pro.zip "TTF/*.ttf" -d ~/.local/share/fonts
+          unzip -j -o -q erewhon-math.zip "erewhon-math/*.otf" -d ~/.local/share/fonts
+          fc-cache -f
 
-      - name: Install Typst 0.14.2
+      - name: Install Typst 0.15.1
         uses: typst-community/setup-typst@v5
         with:
-          typst-version: 0.14.2
+          typst-version: 0.15.1
+
+      # Neither package is available on Typst Universe (yet), so they are cloned.
+      # See README.md for the same steps on a local machine.
+      - name: Install Typst packages
+        run: |
+          mkdir -p .typst-packages/preview/animo
+          git clone --depth 1 --branch v0.2.0 \
+            https://github.com/reproducible-reporting/animo.git \
+            .typst-packages/preview/animo/0.2.0
+          git clone --depth 1 \
+            https://github.com/reproducible-reporting/ugentish.git \
+            .typst-packages/ugentish-repo
+          ln -s ugentish-repo/typst/packages/ugentish .typst-packages/ugentish
 
       - name: Compile slides
-        run: typst compile slides/slides.typ slides.pdf
+        run: |
+          export TYPST_PACKAGE_PATH="${PWD}/.typst-packages"
+          typst compile slides/slides.typ slides.pdf
+          typst compile --format html --features html slides/slides.typ slides.html
 
       - name: Upload slides artifact
         uses: actions/upload-artifact@v7
         with:
           name: slides
-          path: slides.pdf
+          path: |
+            slides.pdf
+            slides.html
 
   release:
     needs: build
@@ -63,4 +80,6 @@ jobs:
       - name: Create GitHub release
         uses: softprops/action-gh-release@v3
         with:
-          files: slides.pdf
+          files: |
+            slides.pdf
+            slides.html

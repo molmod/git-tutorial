@@ -8,3 +8,7 @@
 
 # Outputs
 *.pdf
+/slides.html
+
+# Typst packages cloned locally, see README.md
+/.typst-packages
