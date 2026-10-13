@@ -76,9 +76,12 @@
     )
     sub(
       reveal("staging"),
-      apply("tree-git", text.with(weight: "bold", fill: ugc.red)),
+      apply("tree-index", text.with(weight: "bold", fill: ugc.red)),
     )
-    sub(reveal("repository"))
+    sub(
+      reveal("repository"),
+      apply("tree-git", text.with(weight: "bold", fill: ugc.purple)),
+    )
   },
 )[
   #grid(
@@ -93,6 +96,7 @@
         ├── .git/ \
         │   ├── config \
         │   ├── HEAD \
+        │   ├── #tag("tree-index")[index] \
         │   ├── #tag("tree-git")[objects/] \
         │   ├── refs/ \
         │   └── ... \
@@ -113,7 +117,7 @@
         table.header(
           tag("working", text(weight: "bold", fill: ugc.green)[Working directory]),
           tag("staging", [#text(weight: "bold", fill: ugc.red)[Staging area] (or index)]),
-          tag("repository", text(weight: "bold", fill: ugc.red)[Git repository]),
+          tag("repository", text(weight: "bold", fill: ugc.purple)[Git repository]),
         ),
         tag("working")[Files being edited],
         tag("staging")[Version of files to be added to history],
@@ -133,7 +137,7 @@
     *Each version (called "commit") ...*
 
     - ... has a hexadecimal "hash"
-    - ... holds metadata (author, timestamp, parents, children, ...)
+    - ... holds metadata (author, timestamp, parents, ...)
     - ... represents a full snapshot of the working tree at that time
   ]
 ]
@@ -198,7 +202,7 @@
 
       - Branches can be "pushed" and "pulled"
 
-      #tag("scaling")[*Scaling!* E.g. Linux has 13500 contributors.]
+      #tag("scaling")[*Scaling!* E.g. Linux has more than 20000 contributors.]
     ],
     image("distributed.svg", width: 100%),
   )
@@ -225,7 +229,7 @@
         - Commercial product
         - Public = https://github.com
         - Internal = https://github.ugent.be
-        - Company founded in 2007
+        - Company founded in 2008
         - Bought by Microsoft in 2018
       ]
     ],
@@ -256,7 +260,7 @@
   #tag("beyond")[
     *Goes beyond basic GitHub features:*
 
-    - Continuous integration, a.k.a. "Actions"
+    - "Actions" (e.g. continuous integration)
     - Copilot + VSCode integration
     - GitHub Pages
     - Public profile
