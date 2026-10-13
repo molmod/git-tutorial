@@ -1,9 +1,12 @@
-// SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+// SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 // SPDX-License-Identifier: CC-BY-4.0
 
-// The packages used here are not (yet) on Typst Universe.
+// The template packages used here are not (yet) on Typst Universe.
 // See the README for how to make them available to Typst.
 #import "@ugentish/animo-ugentish:0.1.0": *
+
+// Fletcher is on Universe, no need to install anything
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
 #show: animo-ugentish.with(
   short: "git",
@@ -20,8 +23,17 @@
 
 #title-slide(
   "Getting Started with Git(Hub)",
-  authors: "Toon Verstraelen",
-  note: datetime(year: 2026, month: 5, day: 8).display("[day padding:none] [month repr:long] [year]"),
+  subtitle: [
+    ... Scientific Computing for Physicists (S1, Sterre, Ghent, 15 October 2026) \
+    ... and Coffee (S5, Sterre, Ghent, 15 October 2026)
+  ],
+  authors: "Toon.Verstraelen@UGent.be",
+  note: [
+    Center for Molecular Modeling \
+    Department of Physics and Astronomy \
+    Faculty of Sciences \
+    Ghent University
+  ],
 )
 
 #outline-slide("basics")
@@ -30,40 +42,73 @@
   title: [Git = A _distributed_ version control system],
   animation: {
     import anim: *
+    sub(reveal("why"))
     sub(reveal("what"))
     sub(reveal("how"))
   },
 )[
-  - *Why?* Collaborative development
+  #v(1fr)
+  #let mypanel(label, title, hue, contents) = tag(
+    label, panel(title: title, hue: hue, align(center, box(height: 7cm)[#contents]))
+  )
 
-  #tag("what")[
-    - *What?* Shared history of a tree of files
-  ]
+  #grid(
+    columns: (1fr, 1fr, 1fr),
+    gutter: deck-pad,
+    mypanel("why", "Why?", "blue")[
+      #box(image("tabler/user.svg", height: 2cm))
+      #box(image("tabler/tool.svg", height: 2cm))
+      #box(image("tabler/user.svg", height: 2cm))
 
-  #tag("how")[
-    - *How?*
-      - Software
-      - Database format
-      - Network protocols
-  ]
+      Collaborative development
+
+    ],
+    mypanel("what", "What?", "teal")[
+      #box(image("tabler/file-code.svg", height: 2cm))
+      #box(image("tabler/file-smile.svg", height: 2cm))
+      #box(image("tabler/file-type-txt.svg", height: 2cm))
+
+      Shared history \
+      of a tree of files
+    ],
+    mypanel("how", "How?", "green")[
+      #box(image("tabler/brand-open-source.svg", height: 2cm))
+      #box(image("tabler/database.svg", height: 2cm))
+      #box(image("tabler/network.svg", height: 2cm))
+
+      Software \
+      Database format \
+      Network protocols
+    ],
+  )
+
+  #v(2fr)
 ]
 
-#slide(title: "Why care?", animation: anim.sub(anim.reveal("enables")))[
-  *Widely applied* in research & education to ...
+#slide(title: "Why care (in academia)?", animation: anim.sub(anim.reveal("uses")))[
+  #v(1fr)
+  #grid(
+    columns: (1fr, 1fr),
+    gutter: deck-pad,
+    panel(title: "Enables")[
+      - Collaboration
 
-  - Develop simulation software
-  - Write courses, articles, theses, presentations, etc.
-  - Manage research data
+      - Incremental development
 
-  #tag("enables")[
-    *Enables*
+      - Provenance & attribution
 
-    - Collaboration
-    - Incremental development
-    - Provenance
-    - Attribution
-    - Backup
-  ]
+      - Backup
+    ],
+    tag("uses", panel(title: "Used for", hue: "green")[
+      - Developing (simulation) software
+
+      - Authoring courses, articles, theses, presentations, ...
+
+      - Managing research data
+    ]),
+  )
+
+  #v(2fr)
 ]
 
 #slide(
@@ -72,15 +117,15 @@
     import anim: *
     sub(
       reveal("working"),
-      apply("tree-working", text.with(fill: ugc.green)),
+      apply("tree-working", text.with(fill: ugc.blue)),
     )
     sub(
       reveal("staging"),
-      apply("tree-index", text.with(weight: "bold", fill: ugc.red)),
+      apply("tree-index", text.with(weight: "bold", fill: ugc.orange)),
     )
     sub(
-      reveal("repository"),
-      apply("tree-git", text.with(weight: "bold", fill: ugc.purple)),
+      reveal("history"),
+      apply("tree-git", text.with(weight: "bold", fill: ugc.teal)),
     )
   },
 )[
@@ -100,12 +145,9 @@
         │   ├── #tag("tree-git")[objects/] \
         │   ├── refs/ \
         │   └── ... \
-        ├── #tag("tree-working")[.editorconfig] \
-        ├── #tag("tree-working")[.gitignore] \
-        ├── #tag("tree-working")[.pre-commit-config.yaml] \
+        ├── #tag("tree-working")[animals.md] \
+        ├── #tag("tree-working")[foods.md] \
         ├── #tag("tree-working")[README.md] \
-        ├── #tag("tree-working")[add_comments.py] \
-        ├── #tag("tree-working")[participants.md] \
         └── ... \
       ])
     ],
@@ -115,13 +157,25 @@
         columns: 3,
         inset: 0.5em,
         table.header(
-          tag("working", text(weight: "bold", fill: ugc.green)[Working directory]),
-          tag("staging", [#text(weight: "bold", fill: ugc.red)[Staging area] (or index)]),
-          tag("repository", text(weight: "bold", fill: ugc.purple)[Git repository]),
+          tag("working", text(weight: "bold", fill: ugc.blue)[Working directory]),
+          tag("staging", [#text(weight: "bold", fill: ugc.orange)[Staging area] (or index)]),
+          tag("history", text(weight: "bold", fill: ugc.teal)[History]),
         ),
         tag("working")[Files being edited],
-        tag("staging")[Version of files to be added to history],
-        tag("repository")[Database with all previous versions of the working directory],
+        tag("staging")[
+          Version of files to be added to history
+          #place(dx: -3cm, dy: 1cm)[
+            #set text(size: 1.5em)
+            $stretch(->, size: #150%)_#[`git add`]$
+          ]
+        ],
+        tag("history")[
+          Database with all previous versions of the working directory
+          #place(dx: -3cm, dy: 1cm)[
+            #set text(size: 1.5em)
+            $stretch(->, size: #120%)_#[`git commit`]$
+          ]
+        ],
       )
     ],
   )
@@ -137,58 +191,91 @@
     *Each version (called "commit") ...*
 
     - ... has a hexadecimal "hash"
+
     - ... holds metadata (author, timestamp, parents, ...)
+
     - ... represents a full snapshot of the working tree at that time
   ]
 ]
 
-#slide(title: "Git branches refer to commits", animation: anim.sub(anim.reveal("branches")))[
+#slide(title: "Git branches refer to commits")[
   #align(center, image("git_repository_2.svg"))
 
-  #tag("branches")[
-    - Examples: `alice`, `bob`, `main`, ... + preceding commits
-    - `main` = _default_ branch
-    - `alice` and `bob` temporarily _diverge_, to be _merged_ later.
-  ]
+  - A branch points to a commit (and its ancestors): `plot`, `table`, `main`, ...
+
+  - `main` = _default_ branch
+
+  - `plot` was _merged_ into `main`
+
+  - `table` temporarily _diverges_, to be merged later.
 ]
 
-#slide(title: "Creating new commits", animation: anim.sub(anim.reveal("steps")))[
+#slide(title: "Creating new commits")[
   #align(center, image("git_repository_3.svg"))
 
-  #tag("steps")[
-    - Modify files in the _working directory_.
-    - Add modified files to the _staging area_.
-    - "Commit" the staged files $=>$ New commit after current *HEAD*.
-  ]
+  + Modify files in the _working directory_.
+
+  + `git add`: Add files to the _staging area_.
+
+  + `git commit`: _Commit_ the staged files $=>$ New commit after current *HEAD*.
+]
+
+#slide(background: image("video_terminal.webp", width: 100%))[
+  /*#align(center)[
+    #text(fill: ugc.yellow, size: 1.5em, weight: "bold")[
+      Terminal computers (1987)
+    ]
+  ]*/
 ]
 
 #slide(
   title: "Git in the terminal = most complete interface",
   animation: {
     import anim: *
-    sub(reveal("example"))
     sub(reveal("subcommands"))
+    sub(reveal("frequent"))
   },
 )[
-  Minimal example:
+  #v(1fr)
+  #set align(center)
+  #box(align(left,
+  ```bash
+  # Add an extra line to the README.md
+  echo "Thank you for reading!" >> README.md
 
-  #tag("example")[
-    ```bash
-    # Add an extra line to the README.md
-    echo "Thank you for reading!" >> README.md
+  # Add the modified file to the staging area
+  git add README.md
 
-    # Add the modified file to the staging area
-    git add README.md
+  # Create a new commit
+  git commit -m "Make README more friendly."
+  ```
+  ))
 
-    # Create a new commit
-    git commit -m "Make README more friendly."
-    ```
-  ]
-
+  #v(1fr)
   #tag("subcommands")[
-    Git has many subcommands (> 100).
-    You only need a handful frequently.
+    Git has many subcommands! (> 100) \
   ]
+
+  #v(1fr)
+  #tag("frequent")[
+    You only need a handful frequently: \
+    `git status`
+    #h(1em)
+    `git add`
+    #h(1em)
+    `git commit`
+    #h(1em)
+    `git push`
+    #h(1em)
+    `git pull` \
+    `git log`
+    #h(1em)
+    `git diff`
+    #h(1em)
+    `git switch` \
+    #text(size: 0.7em)[(More commands in the hands-on tutorial: `handson_cli.md`)]
+  ]
+  #v(2fr)
 ]
 
 #slide(title: "Distributed?", animation: anim.sub(anim.reveal("scaling")))[
@@ -196,133 +283,301 @@
     columns: (1fr, 1.5fr),
     gutter: 1cm,
     [
+      #v(0.5fr)
       Git facilitates *online collaboration*:
 
       - Repositories can be "cloned"
 
       - Branches can be "pushed" and "pulled"
 
+      #v(1fr)
       #tag("scaling")[*Scaling!* E.g. Linux has more than 20000 contributors.]
+
+      #v(2fr)
     ],
     image("distributed.svg", width: 100%),
   )
 ]
 
-#slide(title: [Git $!=$ GitHub], animation: anim.sub(anim.reveal("github")))[
+#slide(animation: {
+  import anim: *
+  sub(reveal("what"))
+  sub(reveal("license"))
+  sub(reveal("links"))
+  sub(reveal("history"))
+})[
+  #v(1fr)
+  #grid(
+    columns: (1fr, 1fr),
+    align: horizon,
+    inset: deck-pad,
+    [
+      *Git* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-git.svg", width: 1cm))
+    ],
+    [
+      *GitHub* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-github.svg", width: 1cm))
+    ],
+    grid.hline(),
+    tag("what")[
+      Distributed version control system
+    ],
+    tag("what")[
+      Collaboration platform built on top of Git
+    ],
+    grid.hline(),
+    tag("license")[
+      Open source
+    ],
+    tag("license")[
+      Commercial product
+    ],
+    grid.hline(),
+    tag("links")[
+      https://git-scm.com/
+    ],
+    tag("links")[
+      https://github.com (public) \
+      https://github.ugent.be (internal)
+    ],
+    grid.hline(),
+    tag("history")[
+      Created in 2005 \
+      to maintain the Linux source.
+    ],
+    tag("history")[
+      Company founded in 2008, \
+      bought by Microsoft in 2018.
+    ],
+  )
+  #v(2fr)
+]
+
+#slide(animation: {
+  import anim: *
+  sub(reveal("access"))
+  sub(reveal("data"))
+  sub(reveal("scope"))
+  sub(reveal("features"))
+})[
+  #v(1fr)
   #grid(
     columns: (1fr, 1fr),
     align: top,
-    gutter: 1cm,
-    [
-      *Git* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-git.svg", width: 1cm))
-
-      - Distributed version control system
-      - Open source
-      - https://git-scm.com/
-      - Created in 2005 to maintain the Linux source
+    inset: deck-pad,
+    [https://github.ugent.be],
+    [https://github.com],
+    grid.hline(),
+    tag("access")[
+      UGent accounts only
     ],
-    [
-      #tag("github")[
-        *GitHub* #box(inset: (left: 0.2em, bottom: -0.2em), image("logo-github.svg", width: 1cm))
-
-        - Collaboration platform built on top of Git
-        - Commercial product
-        - Public = https://github.com
-        - Internal = https://github.ugent.be
-        - Company founded in 2008
-        - Bought by Microsoft in 2018
-      ]
+    tag("access")[
+      Anyone
     ],
+    grid.hline(),
+    tag("data")[
+      Data remains on premises
+    ],
+    tag("data")[
+      Data in the cloud
+    ],
+    grid.hline(),
+    tag("scope")[
+      Research or education
+    ],
+    tag("scope")[
+      Anything goes
+    ],
+    grid.hline(),
+    tag("features")[
+      *Basic GitHub features*
+
+      - Issues
+      - Pull requests
+      - Fine-grained access permissions
+      - ...
+    ],
+    tag("features")[
+      *Beyond basic*
+
+      - "Actions" (e.g. continuous integration)
+      - Copilot + VSCode integration
+      - GitHub Pages
+      - Public profile
+      - ...
+    ]
   )
-]
-
-#slide(title: "github.ugent.be", animation: anim.sub(anim.reveal("features")))[
-  *For internal use only:*
-
-  - Only accessible with UGent account
-  - Data remains on-premises
-  - Research or education (not administration)
-
-  #tag("features")[
-    *Basic GitHub features:*
-
-    - Visualization of a Git repository
-    - Simple file edits
-    - Issue tracker
-    - Pull requests
-    - Management (permissions, teams, ...)
-  ]
-]
-
-#slide(title: "github.com", animation: anim.sub(anim.reveal("beyond")))[
-  Anyone can create an account
-
-  #tag("beyond")[
-    *Goes beyond basic GitHub features:*
-
-    - "Actions" (e.g. continuous integration)
-    - Copilot + VSCode integration
-    - GitHub Pages
-    - Public profile
-    - ...
-  ]
+  #v(2fr)
 ]
 
 #slide(
-  title: "Data management aspects",
+  title: [M↓ $=$ Markdown $!=$ markup],
   animation: {
     import anim: *
-    sub(reveal("citations"))
+    sub(reveal("rendered"))
+    sub(reveal("where"))
+    sub(reveal("why"))
+  },
+)[
+  #v(1fr)
+  #grid(
+    columns: (0.95fr, auto, 1fr),
+    align: horizon,
+    gutter: deck-pad,
+    [
+      *You create README.md text file:*
+      ```markdown
+      # Git(Hub) tutorial
+
+      This repository contains source materials for the _Git(Hub) tutorial_.
+
+      1. Start with tutorial slides
+      1. Go through [`handson_web.md`](handson_web.md).
+      ```
+    ],
+    tag("rendered", text(size: 2em, fill: ugc.gray, $->$)),
+    tag("rendered")[
+      *GitHub renders it as:*
+
+      #panel(hue: "blue")[
+        #text(size: 1.5em, weight: "bold")[Git(Hub) tutorial]
+        #v(-1em)
+        #line(length: 100%, stroke: 1pt + ugc.blue)
+
+        This repository contains source materials for the _Git(Hub) tutorial_.
+
+        + Start with tutorial slides
+        + Go through #link("./handson_web.md")[`handson_web.md`].
+      ]
+    ]
+  )
+
+  #v(1fr)
+  #tag("where")[
+    #text(fill: ugc.blue)[Everywhere on GitHub:]
+    `README.md`, issues, pull requests, comments, wikis, ...
+  ]
+
+  #tag("why")[
+    #text(fill: ugc.blue)[Plain text:]
+    readable without rendering $=>$ clean diffs in Git
+  ]
+  #v(2fr)
+]
+
+#slide(
+  title: "Data management & GitHub",
+  animation: {
+    import anim: *
+    sub(reveal("citation"))
     sub(reveal("zenodo"))
   },
 )[
-  *License:*
+  #v(1fr)
+  #grid(
+    columns: (1fr, 1fr, 1fr),
+    gutter: deck-pad,
+    panel(title: "License")[
+      Define it at the *very start* (first commit).
 
-  - Define it at the very start (first commit).
-  - Bare minimum: `LICENSE` file + mention in `README.md`.
-  - Tutorial repo applies #link("https://reuse.software")[REUSE] recommendations.
+      *Minimalistic:*
+      - `LICENSE` file
+      - mention in `README.md`
 
-  #tag("citations")[
-    *Suggest citations for a Git Repo:*
+      *Fine-grained:*
+      #link("https://reuse.software")[REUSE]
+    ],
+    tag("citation", panel(title: "Metadata")[
+      - Suggested citation:
+        #link("https://citation-file-format.github.io/")[`CITATION.cff`]
 
-    - Use `CITATION.cff` file (https://citation-file-format.github.io/)
-  ]
+      - Topics
 
-  #tag("zenodo")[
-    *GitHub $!=$ Zenodo*
+      - Website
+    ]),
+    tag("zenodo", panel(title: "Archive")[
+      *GitHub $!=$ Zenodo*
 
-    - GitHub: live data
-    - Zenodo: read-only deposits
-  ]
+      #set align(center)
+      #diagram(
+        node-stroke: 2pt,
+        edge-stroke: 2pt,
+        node((0,0), corner-radius: 2pt, inset: deck-pad)[
+          *GitHub* \
+          live data
+        ],
+        edge("-|>")[_Release_],
+        node((0,1), corner-radius: 2pt, inset: deck-pad)[
+          *Zenodo* \
+          frozen data + DOI
+        ],
+      )
+
+    ])
+  )
+  #v(2fr)
 ]
 
-#slide(title: "Quality Assurance", animation: anim.sub(anim.reveal("later")))[
-  Recommended from *Day 1*:
+#slide(title: "Quality assurance", animation: anim.sub(anim.reveal("later")))[
+  #v(1fr)
+  #panel(title: "Day 1")[
+    - Use a `.gitignore` file to avoid committing unnecessary files.
 
-  - Use a `.gitignore` file to avoid committing unnecessary files.
-  - Use a `.editorconfig` file to ensure consistent formatting.
-  - Use a `.pre-commit-config.yaml` file to automatically check code quality before committing. See https://pre-commit.com/ for more details.
+    - Use a `.editorconfig` file to ensure consistent formatting.
 
-  #tag("later")[
-    Later, you can also consider:
-
-    - Continuous integration (e.g. #link("https://docs.github.com/en/actions")[GitHub Actions]) to automatically run tests on new commits.
+    - Use a `.pre-commit-config.yaml` file to automatically check code quality before committing. See https://pre-commit.com/ for more details.
   ]
+
+  #v(1fr)
+  #tag("later", panel(title: "Later")[
+    Continuous integration (e.g. #link("https://docs.github.com/en/actions")[GitHub Actions]) to automatically run tests on new commits.
+  ])
+
+  #v(2fr)
 ]
 
 #outline-slide("handson")
 
-#slide(title: "Links", animation: anim.sub(anim.reveal("sandbox")))[
+#slide(title: "For students SciCompPhys", animation: anim.sub(anim.reveal("sandbox")))[
+  #v(1fr)
   https://github.com/molmod/git-tutorial
 
   - This presentation
+
   - Two step-by-step guides:
+
     + Basic GitHub usage
+
     + Terminal Git usage
 
+  #v(1fr)
   #tag("sandbox")[
-    https://github.ugent.be/tovrstra/sandbox-261015
+    https://github.ugent.be/SciCompPhys/sandbox-2026
 
-    Internal UGent repository for experimentation.
+    Sandbox repository for experimentation.
   ]
+
+  #v(2fr)
+]
+
+
+#slide(title: "For Git(Hub) & Coffee participants", animation: anim.sub(anim.reveal("sandbox")))[
+  #v(1fr)
+  https://github.com/molmod/git-tutorial
+
+  - This presentation
+
+  - Two step-by-step guides:
+
+    + Basic GitHub usage
+
+    + Terminal Git usage
+
+  #v(1fr)
+  #tag("sandbox")[
+    https://github.ugent.be/tovrstra/sandbox-coffee-2026
+
+    Sandbox repository for experimentation.
+  ]
+
+  #v(2fr)
 ]

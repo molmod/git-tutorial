@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 # SPDX-License-Identifier: CC-BY-4.0
 
 name: Publish Slides
@@ -37,24 +37,30 @@ jobs:
         with:
           typst-version: 0.15.1
 
-      # Neither package is available on Typst Universe (yet), so they are cloned.
+      # UGentish is not available on Typst Universe (yet), so it is cloned.
+      # Other packages, such as Animo, are downloaded by Typst from Universe.
       # See README.md for the same steps on a local machine.
-      - name: Install Typst packages
+      - name: Install UGentish Typst packages
         run: |
-          mkdir -p .typst-packages/preview/animo
-          git clone --depth 1 --branch v0.2.0 \
-            https://github.com/reproducible-reporting/animo.git \
-            .typst-packages/preview/animo/0.2.0
           git clone --depth 1 \
             https://github.com/reproducible-reporting/ugentish.git \
-            .typst-packages/ugentish-repo
-          ln -s ugentish-repo/typst/packages/ugentish .typst-packages/ugentish
+            .typst-packages/ugentish
 
-      - name: Compile slides
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Create Python environment with StepUp
+        run: uv sync
+
+      - name: Run the StepUp workflow
+        run: uv run stepup build
+
+      # The rendered tutorials are committed, so participants can read them on GitHub.
+      # This step fails when they are out of sync with their templates.
+      - name: Check that the rendered tutorials are up to date
         run: |
-          export TYPST_PACKAGE_PATH="${PWD}/.typst-packages"
-          typst compile slides/slides.typ slides.pdf
-          typst compile --format html --features html slides/slides.typ slides.html
+          git status --porcelain handson/
+          test -z "$(git status --porcelain handson/)"
 
       - name: Upload slides artifact
         uses: actions/upload-artifact@v7

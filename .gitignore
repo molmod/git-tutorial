@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 # SPDX-License-Identifier: CC-BY-4.0
 
 # IDEs and development tools
@@ -6,7 +6,14 @@
 .vscode
 .ruff_cache
 
-# Outputs
+# Python
+__pycache__
+.venv
+uv.lock
+
+# StepUp and workflow outputs
+# (The rendered tutorials in handson/ are committed, so they can be read on GitHub.)
+.stepup
 *.pdf
 /slides.html
 

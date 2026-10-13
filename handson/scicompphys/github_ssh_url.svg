@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="753"
+   height="438"
+   viewBox="0 0 753 438"
+   sodipodi:docname="github_ssh_url.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.294748"
+     inkscape:cx="345.24092"
+     inkscape:cy="213.94124"
+     inkscape:window-width="2752"
+     inkscape:window-height="1075"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <image
+       width="753"
+       height="438"
+       preserveAspectRatio="none"
+       xlink:href="github_ssh_url.png"
+       id="image1" />
+    <rect
+       style="fill:#fbbbb9;stroke:#b6303e;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;fill-opacity:0.30000001"
+       id="rect1"
+       width="89.019966"
+       height="71.543648"
+       x="222.27681"
+       y="152.91771"
+       ry="10" />
+    <rect
+       style="fill:#fbbbb9;fill-opacity:0.3;stroke:#b6303e;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="56.295322"
+       height="55.70575"
+       x="655.13788"
+       y="227.19202"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:74.6667px;line-height:1em;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, ';text-align:center;letter-spacing:0px;word-spacing:1px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fbbbb9;fill-opacity:0.3;stroke:#b6303e;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round"
+       x="266.7868"
+       y="141.57913"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="266.7868"
+         y="141.57913"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3 Bold';fill:#b6303e;fill-opacity:1;stroke:none">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:74.6667px;line-height:1em;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, ';text-align:center;letter-spacing:0px;word-spacing:1px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fbbbb9;fill-opacity:0.3;stroke:#b6303e;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round"
+       x="683.28552"
+       y="215.85344"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="683.28552"
+         y="215.85344"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3 Bold';fill:#b6303e;fill-opacity:1;stroke:none">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:21.3333px;line-height:1em;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3 Bold';text-align:start;letter-spacing:0px;word-spacing:1px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b6303e;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round"
+       x="139.95247"
+       y="258.73761"
+       id="text1"><tspan
+         sodipodi:role="line"
+         x="139.95247"
+         y="258.73761"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, ';fill:#102030">git@github.ugent.be:SciCompPhys/sandbox-2026.git</tspan></text>
+  </g>
+</svg>

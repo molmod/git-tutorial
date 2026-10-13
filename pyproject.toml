@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-License-Identifier: CC-BY-4.0
+
+[project]
+name = "git-tutorial"
+version = "0.0.0"
+description = "Slides and hands-on tutorials of the CMM Git(Hub) tutorial"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pre-commit>=4.6.0",
+    "stepup>=4.0.3",
+    "stepup-reprep>=4.0.1",
+]
+
+[tool.uv]
+package = false

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 # SPDX-License-Identifier: CC-BY-4.0
 
 repos:
@@ -33,6 +33,9 @@ repos:
   rev: 1.0.0
   hooks:
   - id: mdformat
+    # Jinja placeholders in link destinations are not valid Markdown.
+    # The rendered tutorials are checked instead.
+    exclude: ^handson/\.template/
     additional_dependencies:
       - mdformat-gfm
       - mdformat-ruff

@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.697517"
-     inkscape:cx="320.47991"
-     inkscape:cy="144.94811"
+     inkscape:zoom="1.3487585"
+     inkscape:cx="237.99665"
+     inkscape:cy="114.17908"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -160,7 +160,7 @@
          id="tspan8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.6px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3"
          x="103.62661"
-         y="95.876678">alice</tspan></text>
+         y="95.876678">plot</tspan></text>
     <rect
        style="fill:#c7c7c7;stroke:#7f7f7f;stroke-width:0.5;stroke-dasharray:none"
        id="rect7"
@@ -172,12 +172,12 @@
        ry="4" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle)"
-       d="m 115.18373,103.57712 7.32793,7.32562 7.32794,7.32561"
+       d="m 129.8396,118.22835 -7.32794,-7.32561 -7.32793,-7.32562"
        id="path5"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle)"
-       d="m 76.891428,123.7626 7.327921,7.32561 7.327941,7.32562"
+       d="m 91.54729,138.41383 -7.327941,-7.32562 -7.327921,-7.32561"
        id="path6"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -224,7 +224,7 @@
          y="123.10502">a36c</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle-6)"
-       d="m 79.51978,120.99547 h 5.92004 5.920041"
+       d="M 91.359861,120.99547 H 85.43982 79.51978"
        id="path2-7"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -250,12 +250,12 @@
          y="105.84512">6f8a</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle-6)"
-       d="m 79.343552,103.57713 h 5.92004 5.920041"
+       d="m 91.183633,103.57713 h -5.920041 -5.92004"
        id="path4"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle)"
-       d="m 41.647587,118.22835 7.327934,-7.3256 7.327935,-7.32563"
+       d="m 56.303456,103.57712 -7.327935,7.32563 -7.327934,7.3256"
        id="path3"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -302,7 +302,7 @@
          y="123.26621">47ab</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle)"
-       d="m 43.679596,120.99547 h 5.92004 5.920042"
+       d="m 55.519678,120.99547 h -5.920042 -5.92004"
        id="path2"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -328,7 +328,7 @@
          y="123.26621">46eb</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle-0)"
-       d="m 115.35997,120.99547 h 5.92003 5.92004"
+       d="M 127.20004,120.99547 H 121.28 115.35997"
        id="path2-2"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -354,7 +354,7 @@
          y="123.26621">b710</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-mid:url(#Triangle-0-7)"
-       d="m 151.20015,120.99547 h 5.92004 5.92003"
+       d="m 163.04022,120.99547 h -5.92003 -5.92004"
        id="path2-2-1"
        sodipodi:nodetypes="ccc" />
     <rect
@@ -401,6 +401,6 @@
          id="tspan9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.6px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3"
          x="103.59275"
-         y="149.91592">bob</tspan></text>
+         y="149.91592">table</tspan></text>
   </g>
 </svg>

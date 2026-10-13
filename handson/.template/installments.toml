@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
+# SPDX-License-Identifier: CC-BY-4.0
+
+# Each table defines one installment of the hands-on tutorial.
+# The table name is the output directory under handson/,
+# in which ../../plan.py renders all Markdown templates of this directory.
+#
+# Keys:
+# - audience: the group of participants, used in a sentence like "intended for {{ audience }}".
+# - sandbox: URL of the sandbox repository that participants fork.
+#   The plan derives `sandbox.host`, `sandbox.owner` and `sandbox.name` from it.
+
+[scicompphys]
+audience = "students of the Scientific Computing for Physicists course"
+sandbox = "https://github.ugent.be/SciCompPhys/sandbox-2026"
+
+[andcoffee]
+audience = "participants of the Git(Hub) & Coffee training"
+sandbox = "https://github.ugent.be/tovrstra/sandbox-coffee-2026"

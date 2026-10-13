@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="138.494mm"
+   width="149.494mm"
    height="148.521mm"
-   viewBox="0 0 138.494 148.52099"
+   viewBox="0 0 149.494 148.52099"
    version="1.1"
    id="svg8"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
@@ -65,7 +65,7 @@
     <inkscape:page
        x="0"
        y="0"
-       width="138.494"
+       width="149.494"
        height="148.521"
        id="page3"
        margin="1"
@@ -109,19 +109,19 @@
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#888888;stroke-width:0.264583"
-       x="111.71169"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#888888;stroke-width:0.264583"
+       x="117.21169"
        y="12.334334"
        id="text41240-2"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
-         x="111.71169"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
+         x="117.21169"
          y="12.334334"
          id="tspan51652-9">Online repositories</tspan></text>
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
        id="rect3"
-       width="138.494"
+       width="149.494"
        height="148.521"
        x="1.9999996"
        y="8.2749157" />
@@ -133,7 +133,7 @@
      transform="translate(-25.159737,-28.983764)">
     <text
        xml:space="preserve"
-       style="font-size:3.52777px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-size:3.52777px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="40.235916"
        y="30.71665"
        id="text31259"><tspan
@@ -161,15 +161,15 @@
        id="path1053" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="53.999271"
        y="72.43541"
        id="text4492"><tspan
          sodipodi:role="line"
          id="tspan4490"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
          x="53.999271"
-         y="72.43541">.../sandbox/</tspan></text>
+         y="72.43541">.../{{ sandbox.name }}/</tspan></text>
     <circle
        style="fill:#d62728;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
        id="path7328"
@@ -178,13 +178,13 @@
        r="2" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="35.004444"
        y="81.769386"
        id="text7558"><tspan
          sodipodi:role="line"
          id="tspan7556"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="35.004444"
          y="81.769386">working tree</tspan></text>
     <circle
@@ -236,87 +236,87 @@
        r="2" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="35.007973"
        y="88.254219"
        id="text14408"><tspan
          sodipodi:role="line"
          id="tspan14406"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="35.007973"
          y="88.254219">index</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="35.015026"
        y="94.088173"
        id="text16024"><tspan
          sodipodi:role="line"
          id="tspan16022"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="35.015026"
          y="94.088173"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
    id="tspan5071">Clean up favorites</tspan> [HEAD]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="34.990334"
        y="99.989159"
        id="text11899"><tspan
          sodipodi:role="line"
          id="tspan11897"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="34.990334"
          y="99.989159">Merge #51</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="39.078594"
        y="106.27467"
        id="text19527"><tspan
          sodipodi:role="line"
          id="tspan19525"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="39.078594"
          y="106.27467">Add my favorite animal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="34.990334"
        y="112.23916"
        id="text20615"><tspan
          sodipodi:role="line"
          id="tspan20613"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="34.990334"
          y="112.23916">Merge #50</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="39.078594"
        y="118.52467"
        id="text25097"><tspan
          sodipodi:role="line"
          id="tspan25095"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="39.078594"
          y="118.52467">Add my favorite food</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="34.990334"
        y="124.48915"
        id="text27955"><tspan
          sodipodi:role="line"
          id="tspan27953"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="34.990334"
          y="124.48915">...</tspan></text>
     <rect
        style="fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
        id="rect41232"
-       width="55"
+       width="66"
        height="56.295773"
        x="107.40382"
        y="41.958847"
@@ -328,24 +328,24 @@
        id="path41234" />
     <path
        style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 109.90382,56.542424 h 50"
+       d="m 109.90382,56.542424 h 61"
        id="path41236" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="134.88286"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="140.38286"
        y="48.435406"
        id="text41240"><tspan
          sodipodi:role="line"
          id="tspan41238"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="134.88286"
-         y="48.435406">git@github.com:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.38286"
+         y="48.435406">git@{{ sandbox.host }}:</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="134.88286"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.38286"
          y="53.197891"
-         id="tspan51652">tovrstra/sandbox.git</tspan></text>
+         id="tspan51652">you/{{ sandbox.name }}.git</tspan></text>
     <circle
        style="fill:#bcbd22;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
        id="circle41250"
@@ -389,76 +389,76 @@
        r="2" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="116.00911"
        y="62.838177"
        id="text41272"><tspan
          sodipodi:role="line"
          id="tspan41270"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="116.00911"
          y="62.838177"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
    id="tspan41268">Clean up favorites</tspan> [HEAD]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="68.739166"
        id="text41276"><tspan
          sodipodi:role="line"
          id="tspan41274"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="68.739166">Merge #51</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="120.07268"
        y="75.024681"
        id="text41280"><tspan
          sodipodi:role="line"
          id="tspan41278"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="120.07268"
          y="75.024681">Add my favorite animal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="80.989166"
        id="text41284"><tspan
          sodipodi:role="line"
          id="tspan41282"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="80.989166">Merge #50</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="120.07268"
        y="87.274673"
        id="text41288"><tspan
          sodipodi:role="line"
          id="tspan41286"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="120.07268"
          y="87.274673">Add my favorite food</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="93.239159"
        id="text41292"><tspan
          sodipodi:role="line"
          id="tspan41290"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="93.239159">...</tspan></text>
     <rect
        style="fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
        id="rect55672"
-       width="55"
+       width="66"
        height="56.295773"
        x="107.40382"
        y="119.95884"
@@ -470,24 +470,24 @@
        id="path55674" />
     <path
        style="vector-effect:none;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 109.90382,134.54242 h 50"
+       d="m 109.90382,134.54242 h 61"
        id="path55676" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="134.76094"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="140.26094"
        y="126.43541"
        id="text55682"><tspan
          sodipodi:role="line"
          id="tspan55678"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="134.76094"
-         y="126.43541">git@github.com:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.26094"
+         y="126.43541">git@{{ sandbox.host }}:</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="134.76094"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.26094"
          y="131.19789"
-         id="tspan55680">molmod/sandbox.git</tspan></text>
+         id="tspan55680">{{ sandbox.owner }}/{{ sandbox.name }}.git</tspan></text>
     <circle
        style="fill:#bcbd22;fill-rule:evenodd;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;stop-color:#000000"
        id="circle55684"
@@ -531,70 +531,70 @@
        r="2" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="116.00911"
        y="140.83818"
        id="text55702"><tspan
          sodipodi:role="line"
          id="tspan55700"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="116.00911"
          y="140.83818"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
    id="tspan55698">Clean up favorites</tspan> [HEAD]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="146.73917"
        id="text55706"><tspan
          sodipodi:role="line"
          id="tspan55704"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="146.73917">Merge #51</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="120.07268"
        y="153.02469"
        id="text55710"><tspan
          sodipodi:role="line"
          id="tspan55708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="120.07268"
          y="153.02469">Add my favorite animal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="158.98917"
        id="text55714"><tspan
          sodipodi:role="line"
          id="tspan55712"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="158.98917">Merge #50</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="120.07268"
        y="165.27467"
        id="text55718"><tspan
          sodipodi:role="line"
          id="tspan55716"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="120.07268"
          y="165.27467">Add my favorite food</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
        x="115.98441"
        y="171.23917"
        id="text55722"><tspan
          sodipodi:role="line"
          id="tspan55720"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.98441"
          y="171.23917">...</tspan></text>
     <path
@@ -604,35 +604,39 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="M 146.08571,117.32151 V 101.13618"
-       id="path63854" />
+       id="path63854"
+       transform="translate(5.5,0)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="148.92006"
        y="113.8521"
-       id="text65782"><tspan
+       id="text65782"
+       transform="translate(5.5,0)"><tspan
          sodipodi:role="line"
          id="tspan65780"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
          x="148.92006"
          y="113.8521">Fork</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="m 142.08571,100.73778 v 16.18533"
-       id="path67546" />
+       id="path67546"
+       transform="translate(5.5,0)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="138.76331"
        y="107.26893"
-       id="text67550"><tspan
+       id="text67550"
+       transform="translate(5.5,0)"><tspan
          sodipodi:role="line"
          id="tspan67548"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
          x="138.76331"
          y="107.26893">Pull request</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
          x="138.76331"
          y="112.03142"
          id="tspan67904">&amp; Merge</tspan></text>
@@ -643,13 +647,13 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="89.549042"
        y="135.5067"
        id="text71764"><tspan
          sodipodi:role="line"
          id="tspan71762"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8c564b;stroke-width:0.264583"
          x="89.549042"
          y="135.5067">Clone</tspan></text>
     <path
@@ -659,22 +663,22 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="94.451546"
        y="89.995537"
        id="text75070"><tspan
          sodipodi:role="line"
          id="tspan75068"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
          x="94.451546"
          y="89.995537">Add</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
          x="94.451546"
          y="94.758026"
          id="tspan75460">second</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
          x="94.451546"
          y="99.520508"
          id="tspan75462">remote</tspan></text>
@@ -685,18 +689,19 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="94.380112"
        y="59.803955"
        id="text77576"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#8c564b;stroke-width:0.264583"
          x="94.380112"
          y="59.803955"
          id="tspan77574">Push</tspan></text>
     <rect
        style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
        id="rect89074"
+       transform="translate(5.5,0)"
        width="5.2830243"
        height="5.2830243"
        x="150.14949"
@@ -705,13 +710,14 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="152.78853"
        y="108.5769"
-       id="text81205"><tspan
+       id="text81205"
+       transform="translate(5.5,0)"><tspan
          sodipodi:role="line"
          id="tspan81203"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="152.78853"
          y="108.5769">A</tspan></text>
     <rect
@@ -725,13 +731,13 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="94.407501"
        y="130.37231"
        id="text89269"><tspan
          sodipodi:role="line"
          id="tspan89267"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="94.407501"
          y="130.37231">B</tspan></text>
     <rect
@@ -745,13 +751,13 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="94.203903"
        y="85.141678"
        id="text92583"><tspan
          sodipodi:role="line"
          id="tspan92581"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="94.203903"
          y="85.141678">C</tspan></text>
     <rect
@@ -765,18 +771,19 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="94.203903"
        y="54.860767"
        id="text96271"><tspan
          sodipodi:role="line"
          id="tspan96269"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="94.203903"
          y="54.860767">D</tspan></text>
     <rect
        style="fill:#8c564b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000"
        id="rect98799"
+       transform="translate(5.5,0)"
        width="5.2830243"
        height="5.2830243"
        x="111.68605"
@@ -785,13 +792,14 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="114.36221"
        y="107.62508"
-       id="text98803"><tspan
+       id="text98803"
+       transform="translate(5.5,0)"><tspan
          sodipodi:role="line"
          id="tspan98801"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="114.36221"
          y="107.62508">E</tspan></text>
     <path
@@ -801,12 +809,12 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#8c564b;stroke-width:0.264583"
        x="97.550026"
        y="156.05887"
        id="text132608"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#8c564b;stroke-width:0.264583"
          x="97.550026"
          y="156.05887"
          id="tspan132606">Pull</tspan></text>
@@ -821,13 +829,13 @@
        ry="0.30000046" />
     <text
        xml:space="preserve"
-       style="font-size:4.93888973px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:4.93888973px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="94.441437"
        y="150.32101"
        id="text132614"><tspan
          sodipodi:role="line"
          id="tspan132612"
-         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:'FiraGO, Bold';font-family:FiraGO;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-weight:bold;font-size:4.93888973px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583;-inkscape-font-specification:''Source Sans 3', Bold';font-family:'Source Sans 3';font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="94.441437"
          y="150.32101">F</tspan></text>
     <rect
@@ -841,19 +849,19 @@
        ry="1.4958955" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
        x="105.49897"
        y="121.4305"
        id="text3034"><tspan
          sodipodi:role="line"
          id="tspan3032"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
          x="105.49897"
          y="121.4305">&quot;origin&quot;</tspan></text>
     <rect
        style="fill:#7f7f7f;fill-rule:evenodd;stroke:none;stroke-width:4.99999;paint-order:markers fill stroke;stop-color:#000000"
        id="rect8413"
-       width="16.523907"
+       width="12.050296"
        height="5.8792176"
        x="104.11436"
        y="38.872746"
@@ -861,15 +869,15 @@
        ry="1.6631243" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.264583"
        x="105.49897"
        y="42.999249"
        id="text8417"><tspan
          sodipodi:role="line"
          id="tspan8415"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777996px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
          x="105.49897"
-         y="42.999249">&quot;myfork&quot;</tspan></text>
+         y="42.999249">&quot;fork&quot;</tspan></text>
     <path
        style="color:#000000;fill:#7f7f7f;fill-rule:evenodd;stroke-width:1.00001;-inkscape-stroke:none;paint-order:stroke markers fill"
        d="m 49.868479,55.638788 c -0.667778,0 -1.485447,0.272907 -1.819336,0.607225 l -4,4.005143 c -0.333889,0.334318 -0.06036,0.606247 0.607421,0.606247 h 13 c 0.667779,0 1.482518,-0.271929 1.816407,-0.606247 l 4,-4.005143 c 0.333889,-0.334318 0.06329,-0.607225 -0.604492,-0.607225 z m -0.211915,0.212187 h 13 c 0.440221,0 0.612689,0.174645 0.392579,0.395038 l -4,4.005143 c -0.22011,0.220393 -0.740443,0.39406 -1.180664,0.39406 h -13 c -0.44022,0 -0.615619,-0.173667 -0.395508,-0.39406 l 4,-4.005143 c 0.22011,-0.220393 0.743373,-0.395038 1.183593,-0.395038 z"
@@ -984,7 +992,7 @@
        id="rect33531" />
     <text
        xml:space="preserve"
-       style="font-size:2.11667px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;stroke-width:0.264583"
+       style="font-size:2.11667px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3';letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;stroke-width:0.264583"
        x="50.583862"
        y="48.660053"
        id="text34237"><tspan
@@ -995,7 +1003,7 @@
          y="48.660053">&gt; _</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.52777px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#575757;stroke:none;stroke-width:0.264583"
+       style="font-size:3.52777px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#575757;stroke:none;stroke-width:0.264583"
        x="56.299259"
        y="53.266479"
        id="text4492-6"><tspan
@@ -1006,13 +1014,13 @@
          y="53.266479">VSC</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="134.88286"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="140.38286"
        y="33.435406"
        id="text2"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:FiraGO;-inkscape-font-specification:'FiraGO, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
-         x="134.88286"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80999px;font-family:'Source Sans 3';-inkscape-font-specification:''Source Sans 3', Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#888888;stroke-width:0.264583"
+         x="140.38286"
          y="33.435406"
          id="tspan2">Online repositories</tspan></text>
   </g>
