@@ -15,19 +15,19 @@
     handson: "Hands-on",
   ),
   logos: {
-    box(image("logo-ugent.svg"))
+    box(link("https://www.ugent.be", image("logo-ugent.svg")))
     h(0.75cm)
-    box(image("logo-cmm.svg"))
+    box(link("https://molmod.ugent.be", image("logo-cmm.svg")))
   },
 )
 
 #title-slide(
   "Getting Started with Git(Hub)",
   subtitle: [
-    ... Scientific Computing for Physicists (S1, Sterre, Ghent, 15 October 2026) \
-    ... and Coffee (S5, Sterre, Ghent, 15 October 2026)
+    Scientific Computing for Physicists \
+    ... and Coffee
   ],
-  authors: "Toon.Verstraelen@UGent.be",
+  authors: [Toon Verstraelen \ #link("Toon.Verstraelen@UGent.be")],
   note: [
     Center for Molecular Modeling \
     Department of Physics and Astronomy \
@@ -90,7 +90,7 @@
   #grid(
     columns: (1fr, 1fr),
     gutter: deck-pad,
-    panel(title: "Enables")[
+    panel(title: "Enables", box(height: 6cm)[
       - Collaboration
 
       - Incremental development
@@ -98,14 +98,14 @@
       - Provenance & attribution
 
       - Backup
-    ],
-    tag("uses", panel(title: "Used for", hue: "green")[
+    ]),
+    tag("uses", panel(title: "Used for", hue: "green", box(height: 6cm)[
       - Developing (simulation) software
 
       - Authoring courses, articles, theses, presentations, ...
 
       - Managing research data
-    ]),
+    ])),
   )
 
   #v(2fr)
@@ -136,7 +136,7 @@
     [
       *Example:* \
       `tovrstra/sandbox`
-      #par(leading: 8pt, text(font: "Source Code Pro", size: 18pt, fill: luma(65%))[
+      #par(leading: 8pt, text(font: "Source Code Pro", size: 18pt, fill: luma(40%))[
         . \
         ├── .git/ \
         │   ├── config \
@@ -158,7 +158,7 @@
         inset: 0.5em,
         table.header(
           tag("working", text(weight: "bold", fill: ugc.blue)[Working directory]),
-          tag("staging", [#text(weight: "bold", fill: ugc.orange)[Staging area] (or index)]),
+          tag("staging", [#text(weight: "bold", fill: ugc.orange)[Staging area] \ (or index)]),
           tag("history", text(weight: "bold", fill: ugc.teal)[History]),
         ),
         tag("working")[Files being edited],
@@ -272,30 +272,29 @@
     #h(1em)
     `git diff`
     #h(1em)
-    `git switch` \
-    #text(size: 0.7em)[(More commands in the hands-on tutorial: `handson_cli.md`)]
+    `git switch`
   ]
   #v(2fr)
 ]
 
-#slide(title: "Distributed?", animation: anim.sub(anim.reveal("scaling")))[
+#slide(title: "Distributed or centralized", animation: anim.sub(anim.reveal("scaling")))[
   #grid(
     columns: (1fr, 1.5fr),
     gutter: 1cm,
     [
       #v(0.5fr)
-      Git facilitates *online collaboration*:
-
-      - Repositories can be "cloned"
+      - Repositories can be "cloned" (full copy of history)
 
       - Branches can be "pushed" and "pulled"
+
+      - Technically works without central server.
 
       #v(1fr)
       #tag("scaling")[*Scaling!* E.g. Linux has more than 20000 contributors.]
 
       #v(2fr)
     ],
-    image("distributed.svg", width: 100%),
+    image("centralized.svg", width: 100%),
   )
 ]
 
@@ -410,7 +409,7 @@
 ]
 
 #slide(
-  title: [M↓ $=$ Markdown $!=$ markup],
+  title: [M↓ $=$ Markdown],
   animation: {
     import anim: *
     sub(reveal("rendered"))
@@ -420,21 +419,22 @@
 )[
   #v(1fr)
   #grid(
-    columns: (0.95fr, auto, 1fr),
-    align: horizon,
+    columns: (1.15fr, auto, 0.9fr),
+    align: top,
     gutter: deck-pad,
     [
-      *You create README.md text file:*
+      *You create a README.md text file:*
       ```markdown
       # Git(Hub) tutorial
 
       This repository contains source materials for the _Git(Hub) tutorial_.
 
       1. Start with tutorial slides
-      1. Go through [`handson_web.md`](handson_web.md).
+      1. Go through
+         [`handson_web.md`](handson_web.md)
       ```
     ],
-    tag("rendered", text(size: 2em, fill: ugc.gray, $->$)),
+    align(horizon, tag("rendered", text(size: 2em, fill: ugc.gray, $->$))),
     tag("rendered")[
       *GitHub renders it as:*
 
@@ -524,7 +524,7 @@
 
     - Use a `.editorconfig` file to ensure consistent formatting.
 
-    - Use a `.pre-commit-config.yaml` file to automatically check code quality before committing. See https://pre-commit.com/ for more details.
+    - Use a `.pre-commit-config.yaml` file and install `pre-commit` to automatically check code quality before committing. See https://pre-commit.com/ for more details.
   ]
 
   #v(1fr)
@@ -537,7 +537,7 @@
 
 #outline-slide("handson")
 
-#slide(title: "For students SciCompPhys", animation: anim.sub(anim.reveal("sandbox")))[
+#slide(title: "Link to online tutorial")[
   #v(1fr)
   https://github.com/molmod/git-tutorial
 
@@ -545,39 +545,9 @@
 
   - Two step-by-step guides:
 
-    + Basic GitHub usage
+    + *GitHub* web interface
 
-    + Terminal Git usage
-
-  #v(1fr)
-  #tag("sandbox")[
-    https://github.ugent.be/SciCompPhys/sandbox-2026
-
-    Sandbox repository for experimentation.
-  ]
-
-  #v(2fr)
-]
-
-
-#slide(title: "For Git(Hub) & Coffee participants", animation: anim.sub(anim.reveal("sandbox")))[
-  #v(1fr)
-  https://github.com/molmod/git-tutorial
-
-  - This presentation
-
-  - Two step-by-step guides:
-
-    + Basic GitHub usage
-
-    + Terminal Git usage
-
-  #v(1fr)
-  #tag("sandbox")[
-    https://github.ugent.be/tovrstra/sandbox-coffee-2026
-
-    Sandbox repository for experimentation.
-  ]
+    + *Git* & *GitHub* terminal usage
 
   #v(2fr)
 ]

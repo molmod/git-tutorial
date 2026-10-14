@@ -84,14 +84,14 @@ but you may run into a conflict later on.
 
 ## Create a fork and a pull request
 
-- Go back to the [`foods.md`](https://github.ugent.be/tovrstra/sandbox-coffee-2026/blob/main/foods.md) file, then click on :pencil2:.
+- Go back to the [`foods.md`](https://github.ugent.be/tovrstra/sandbox-coffee-2026/blob/main/foods.md) file,
+  and then click on the pencil icon 🖉 in the top right of the window.
 
-  You are now asked to create a **fork** of the repository, which is a copy of the repository under your own account.
+  You are now asked to create a **fork** of the repository, i.e., a full copy of its entire history under your own account.
   Click **Fork this repository**.
 
 - Use the web editor to replace one of the `...` placeholders in the section of your food with a short reason why you like it.
   Keep the `-` at the start of the line, so it remains a list item.
-  [Have fun](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)!
 
 - After editing, click the green **Commit changes** button.
 

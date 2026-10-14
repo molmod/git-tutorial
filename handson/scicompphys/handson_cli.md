@@ -9,15 +9,16 @@ SPDX-License-Identifier: CC-BY-4.0
 
 > **Before you start**
 >
+> - You can log in to <https://github.ugent.be> with your UGent account.
+> - You have a terminal to work in, see [Where to work](#where-to-work) below.
 > - You have gone through [`handson_web.md`](handson_web.md).
 >   In particular, you need a **fork** of the sandbox <https://github.ugent.be/SciCompPhys/sandbox-2026> under your own account.
 >   If you do not have one yet, open the sandbox in your browser, click **Fork** and continue here.
-> - You can log in to <https://github.ugent.be> with your UGent account.
-> - You have a terminal to work in, see [Where to work](#where-to-work) below.
 
 ## Overview
 
-The goal of this guide is to replicate the workflow of `handson_web.md` using a terminal-based Git client, instead of the web interface of GitHub.
+The goal of this guide is to replicate the workflow of [`handson_web.md`](handson_web.md)
+using a terminal-based Git client, instead of the web interface of GitHub.
 Some familiarity with virtual terminals and the [`nano`](https://www.nano-editor.org/) editor is assumed.
 
 The guide has three parts:
@@ -160,6 +161,8 @@ When this happens, key encryption offers limited protection, e.g. spyware can al
 Even old-fashioned thieves have [cheap and effective means of recovering your password](https://xkcd.com/538/).
 
 If you care about security, the following are more effective: use up-to-date and legal software, block advertisements, and don't open questionable e-mails, attachments or web pages.
+If someone or something gives you the impression you need to act **NOW (!!!)**, it is a scam.
+Grab a coffee, relax, and delete.
 
 ### Add the public SSH key to your GitHub account
 
@@ -616,7 +619,7 @@ The workflow in this guide uses two remotes:
 `origin` for the original repository, from which you only pull,
 and `fork` for your fork, to which you push your branches.
 This is one of several simple workflows to contribute to a repository to which you only have read access.
-Two other common variants are:
+Two other common variants for such repositories are:
 
 - **Clone your fork only.**
   You clone your fork instead of the original repository, so `origin` refers to your fork.
@@ -639,8 +642,22 @@ Two other common variants are:
   This naming convention is assumed by the contributor guides of many open-source projects.
   The GitHub CLI command `gh repo fork --clone` also sets up the remotes in this way.
 
-All three workflows involve the same steps (branch, commit, push to your fork, pull request).
-They only differ in which repository you clone and how you name the remotes.
+If you have write access to the repository, there is a fourth, even simpler variant:
+
+- **No fork, with a shared private repository.**
+  In small projects, e.g. a course project or a research project of a small group,
+  all collaborators are typically given write access to a single (often private) repository.
+  Forks are unnecessary in this case.
+  You clone the shared repository, so `origin` is the only remote,
+  create a branch, push it to `origin` and open a pull request from that branch to `main`.
+  Your collaborators review the pull request, just as before, and one of them merges it.
+  Because there is only one repository, `git pull` on `main` is all you need to stay up to date.
+  It is good practice to avoid committing directly to `main`, even though you are allowed to,
+  because the pull request gives your collaborators a chance to review your changes.
+  Many teams enforce this with a branch protection rule in the repository settings on GitHub.
+
+All four workflows involve the same steps (branch, commit, push, pull request).
+They only differ in which repository you clone, where you push your branch, and how you name the remotes.
 When you follow the contributor guide of a project, check which remote names it assumes.
 
 These are only the simplest workflows.
