@@ -16,5 +16,5 @@ uv.lock
 .stepup
 build
 
-# Typst packages cloned locally, see README.md
+# Typst packages cloned locally, see instructors.md
 /.typst-packages

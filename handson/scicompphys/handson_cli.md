@@ -7,23 +7,50 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Working with Git in the terminal
 
-This guide assumes you have already gone through [`handson_web.md`](handson_web.md).
+> **Before you start**
+>
+> - You have gone through [`handson_web.md`](handson_web.md).
+>   In particular, you need a **fork** of the sandbox <https://github.ugent.be/SciCompPhys/sandbox-2026> under your own account.
+>   If you do not have one yet, open the sandbox in your browser, click **Fork** and continue here.
+> - You can log in to <https://github.ugent.be> with your UGent account.
+> - You have a terminal to work in, see [Where to work](#where-to-work) below.
 
 ## Overview
 
 The goal of this guide is to replicate the workflow of `handson_web.md` using a terminal-based Git client, instead of the web interface of GitHub.
+Some familiarity with virtual terminals and the [`nano`](https://www.nano-editor.org/) editor is assumed.
 
-The instructions below assume that you will use Git on the Donphan cluster of the VSC.
-Some familiarity with virtual terminals and the [`nano`](https://www.nano-editor.org/) editor is also assumed.
+The guide has three parts:
 
-You can also follow the instructions below on any other computer, provided you have the necessary software installed:
+1. **Set-up** (needed once per computer or account):
+   [Where to work](#where-to-work), [Configure Git](#configure-git) and [Configure SSH](#configure-ssh).
+1. **Hands-on exercise:**
+   [Explain why you like an animal in `animals.md`](#explain-why-you-like-an-animal-in-animalsmd).
+   This is the core of the tutorial, which you can start as soon as the set-up is done.
+1. **Reference material** to read afterwards, or whenever you need it:
+   [Most important Git commands](#most-important-git-commands),
+   [Surviving Git in the terminal](#surviving-git-in-the-terminal) and the [Epilogue](#epilogue).
 
-- A virtual terminal running `bash` or `zsh`.
-- A recent version of Git
-- An SSH client
-- A text editor, e.g. `nano`.
+## Where to work
 
-## Virtual terminal on VSC
+You need a virtual terminal running `bash` or `zsh`, with a recent version of Git, an SSH client and a text editor such as `nano`.
+There are two ways to get this:
+
+- **On your own laptop**, if you use Linux, macOS or Windows with WSL (Windows Subsystem for Linux).
+  Git, SSH and `nano` are available there or can be installed with your package manager.
+  The instructions below use `$VSC_DATA` as the directory in which you keep your repositories.
+  On your own computer, replace it by any directory of your choice, e.g. `~/` or `~/projects/`.
+
+- **On the VSC cluster (Donphan)**, which is recommended if:
+
+  - you do not have a POSIX terminal on your computer, e.g. you use Windows without WSL, or
+  - you want to practice Git specifically in this environment, e.g. because you will use it for your calculations on the cluster.
+
+  Everything is already installed on the VSC, so you can follow the instructions below as they are written.
+
+### Virtual terminal on VSC
+
+Skip this section if you work on your own laptop.
 
 Take the following steps to open a virtual terminal on the VSC cluster.
 
@@ -53,7 +80,7 @@ Note that copying and pasting in tmux are a bit different:
 
 ## Configure Git
 
-(This concerns local settings on your computer or VSC account.)
+(This concerns local settings on your own computer or VSC account.)
 
 When you locally commit modifications to a Git repository, some metadata is also recorded, such as the author and the time of the commit.
 To make sure the author is set correctly, configure Git with the following commands:
@@ -213,58 +240,6 @@ Type `yes` and press `[Enter]`. You should see the following:
 
 Congratulations! Your SSH key is working and you can now use the commands below to interact with GitHub repositories.
 
-## Most important Git commands
-
-There are several `git` commands in the instructions below
-to interact with a local Git repository on your VSC account.
-A detailed description of all these commands can be found in the [Git Reference Documentation](https://git-scm.com/docs).
-Here we provide a list of the most important commands, a link to their documentation and a one-line summary of what they do.
-
-| Command                                                 | Summary                                                                       |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [`git config`](https://git-scm.com/docs/git-config)     | change or view your local Git settings                                        |
-| [`git clone`](https://git-scm.com/docs/git-clone)       | make a local copy of a remote git repository.                                 |
-| **[`git status`](https://git-scm.com/docs/git-status)** | show a summary of changed, removed and added files in your work directory.    |
-| **[`git log`](https://git-scm.com/docs/git-log)**       | show the Git history (of your current branch), press `q` to quit.             |
-| **[`git diff`](https://git-scm.com/docs/git-diff)**     | show line-by-line changes between your working directory and the index.       |
-| **[`git add`](https://git-scm.com/docs/git-add)**       | copy a file from your working directory to the index, to prepare a commit.    |
-| [`git rm`](https://git-scm.com/docs/git-rm)             | remove a file from the Git repository. (It will remain in the older commits.) |
-| [`git mv`](https://git-scm.com/docs/git-mv)             | move or rename a file in the Git repository.                                  |
-| [`git restore`](https://git-scm.com/docs/git-restore)   | undo `git add`                                                                |
-| **[`git commit`](https://git-scm.com/docs/git-commit)** | add a commit with file changes in the index to the Git history                |
-| **[`git push`](https://git-scm.com/docs/git-push)**     | upload new commits in your local Git history to an online repository          |
-| **[`git pull`](https://git-scm.com/docs/git-pull)**     | download commits to your local repository and update your working directory.  |
-| [`git fetch`](https://git-scm.com/docs/git-fetch)       | like `git pull` but without updating your work directory                      |
-| [`git remote`](https://git-scm.com/docs/git-remote)     | list, inspect or configure repositories on remote servers                     |
-| [`git branch`](https://git-scm.com/docs/git-branch)     | create, modify and manage Git branches                                        |
-| **[`git switch`](https://git-scm.com/docs/git-switch)** | change the current branch and update your working directory.                  |
-
-Part of Git's steep learning curve comes from the large number of commands needed to interact with a Git repository.
-Fortunately, you only need a handful of them frequently, which are shown in bold.
-
-## Surviving Git in the terminal
-
-Because the `git` command can be intimidating and frustrating to newcomers, there are many graphical user interfaces, either standalone tools or built into code editors like Visual Studio Code.
-We do not recommend any of these graphical tools because they hide relevant details for the sake of simplicity, making it harder to understand what you are doing with a Git repository.
-A more salient approach to flatten the learning curve is to use an informative shell prompt, which constantly shows the current status of your local repository.
-Some examples:
-
-- [Powerbash](https://powerbash.org/).
-  (My personal favorite. Simple, fast, and good enough. It is included in PhyStack already.)
-- [Oh My Zsh](https://ohmyz.sh/)
-- [Starship](https://starship.rs/)
-- [Powerline Shell](https://github.com/b-ryan/powerline-shell)
-- ...
-
-To install powerbash:
-
-```bash
-curl -s https://get.powerbash.org | bash
-```
-
-Run `powerbash` to start a new shell with the powerbash prompt.
-It will start automatically in new terminal windows after installation.
-
 ## Explain why you like an animal in `animals.md`
 
 In this guide, we will practically reproduce the web-based editing of [`foods.md`](https://github.ugent.be/SciCompPhys/sandbox-2026/blob/main/foods.md),
@@ -283,7 +258,8 @@ The main steps in the workflow are shown in the following figure:
 The steps below are more detailed and refer to the letter codes in this figure.
 To clarify the workflow, each command is preceded by a comment showing the current working directory.
 
-1. Decide on a location for your local clone of the repository, e.g. `$VSC_DATA`.
+1. Decide on a location for your local clone of the repository, e.g. `$VSC_DATA` on the VSC.
+   (On your own computer, any directory will do. Replace `$VSC_DATA` by it in the comments below.)
 
    ```bash
    # ~/
@@ -371,9 +347,9 @@ To clarify the workflow, each command is preceded by a comment showing the curre
      > index a253e8d..6dfbb93 100644
      > --- a/animals.md
      > +++ b/animals.md
-     > @@ -500,7 +500,7 @@ Add an item to explain why you like this animal:
+     > @@ -500,7 +500,7 @@ ## 63. Otter :otter:
      >
-     >  Add an item to explain why you like this animal:
+     >  Replace one of the `...` placeholders with a reason why you like this animal (otter):
      >
      > -- ...
      > +- They hold hands while sleeping, so they don't drift apart.
@@ -484,7 +460,10 @@ To clarify the workflow, each command is preceded by a comment showing the curre
      (Don't worry if GitHub reports that your fork is behind the original repository.
      Your new branch is based on the `main` branch of `origin`, so the `main` branch of your fork is irrelevant.)
 
-   - Now get the Git URL of this repository: click on the green `<> Code` button, then click on `Use SSH` (do not use `HTTPS`) and finally click on the copy button.
+   - You are now on the page of **your fork**.
+     Check that the repository name at the top of the page starts with your own username, i.e. `you/sandbox-2026`, and not `SciCompPhys/sandbox-2026`.
+     Get the Git URL of your fork: click on the green `<> Code` button, then click on `Use SSH` (do not use `HTTPS`) and finally click on the copy button.
+     The URL contains your own username, as in the screenshot below, where `you` stands for your username.
 
      ![GitHub SSH URL](github_ssh_url.svg)
 
@@ -573,6 +552,58 @@ To clarify the workflow, each command is preceded by a comment showing the curre
    > ```
 
    You can verify with `git log --graph` that your commits and branches are indeed included.
+
+## Most important Git commands
+
+There are several `git` commands in the exercise above
+to interact with a local Git repository.
+A detailed description of all these commands can be found in the [Git Reference Documentation](https://git-scm.com/docs).
+Here we provide a list of the most important commands, a link to their documentation and a one-line summary of what they do.
+
+| Command                                                 | Summary                                                                       |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [`git config`](https://git-scm.com/docs/git-config)     | change or view your local Git settings                                        |
+| [`git clone`](https://git-scm.com/docs/git-clone)       | make a local copy of a remote git repository.                                 |
+| **[`git status`](https://git-scm.com/docs/git-status)** | show a summary of changed, removed and added files in your work directory.    |
+| **[`git log`](https://git-scm.com/docs/git-log)**       | show the Git history (of your current branch), press `q` to quit.             |
+| **[`git diff`](https://git-scm.com/docs/git-diff)**     | show line-by-line changes between your working directory and the index.       |
+| **[`git add`](https://git-scm.com/docs/git-add)**       | copy a file from your working directory to the index, to prepare a commit.    |
+| [`git rm`](https://git-scm.com/docs/git-rm)             | remove a file from the Git repository. (It will remain in the older commits.) |
+| [`git mv`](https://git-scm.com/docs/git-mv)             | move or rename a file in the Git repository.                                  |
+| [`git restore`](https://git-scm.com/docs/git-restore)   | undo `git add`                                                                |
+| **[`git commit`](https://git-scm.com/docs/git-commit)** | add a commit with file changes in the index to the Git history                |
+| **[`git push`](https://git-scm.com/docs/git-push)**     | upload new commits in your local Git history to an online repository          |
+| **[`git pull`](https://git-scm.com/docs/git-pull)**     | download commits to your local repository and update your working directory.  |
+| [`git fetch`](https://git-scm.com/docs/git-fetch)       | like `git pull` but without updating your work directory                      |
+| [`git remote`](https://git-scm.com/docs/git-remote)     | list, inspect or configure repositories on remote servers                     |
+| [`git branch`](https://git-scm.com/docs/git-branch)     | create, modify and manage Git branches                                        |
+| **[`git switch`](https://git-scm.com/docs/git-switch)** | change the current branch and update your working directory.                  |
+
+Part of Git's steep learning curve comes from the large number of commands needed to interact with a Git repository.
+Fortunately, you only need a handful of them frequently, which are shown in bold.
+
+## Surviving Git in the terminal
+
+Because the `git` command can be intimidating and frustrating to newcomers, there are many graphical user interfaces, either standalone tools or built into code editors like Visual Studio Code.
+We do not recommend any of these graphical tools because they hide relevant details for the sake of simplicity, making it harder to understand what you are doing with a Git repository.
+A more salient approach to flatten the learning curve is to use an informative shell prompt, which constantly shows the current status of your local repository.
+Some examples:
+
+- [Powerbash](https://powerbash.org/).
+  (My personal favorite. Simple, fast, and good enough. It is included in PhyStack already.)
+- [Oh My Zsh](https://ohmyz.sh/)
+- [Starship](https://starship.rs/)
+- [Powerline Shell](https://github.com/b-ryan/powerline-shell)
+- ...
+
+To install powerbash:
+
+```bash
+curl -s https://get.powerbash.org | bash
+```
+
+Run `powerbash` to start a new shell with the powerbash prompt.
+It will start automatically in new terminal windows after installation.
 
 ## Epilogue
 

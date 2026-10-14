@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC-BY-4.0
 """StepUp workflow to compile the slides and to render the hands-on tutorials.
 
-See README.md for instructions on how to run it.
+See instructors.md for instructions on how to run it.
 """
 
 import tomllib
@@ -16,7 +16,7 @@ from stepup.reprep.api import compile_typst
 # Slides
 # ------
 # The UGentish packages are not on Typst Universe,
-# so they are cloned into .typst-packages/ugentish/ (see README.md).
+# so they are cloned into .typst-packages/ugentish/ (see instructors.md).
 # Other packages, such as Animo, are downloaded by Typst from Universe.
 static("slides/", ".typst-packages/ugentish/")
 TYPST_ARGS = ["--package-path=.typst-packages/ugentish/typst/packages"]

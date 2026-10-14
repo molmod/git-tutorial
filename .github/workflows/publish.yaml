@@ -56,7 +56,7 @@ jobs:
 
       # UGentish is not available on Typst Universe (yet), so it is cloned.
       # Other packages, such as Animo, are downloaded by Typst from Universe.
-      # See README.md for the same steps on a local machine.
+      # See instructors.md for the same steps on a local machine.
       - name: Install UGentish Typst packages
         run: |
           git clone --depth 1 \

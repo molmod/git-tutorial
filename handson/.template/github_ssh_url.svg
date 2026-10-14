@@ -92,6 +92,6 @@
          x="139.95247"
          y="258.73761"
          id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, ';fill:#102030">git@{{ sandbox.host }}:{{ sandbox.owner }}/{{ sandbox.name }}.git</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, ';fill:#102030">git@{{ sandbox.host }}:you/{{ sandbox.name }}.git</tspan></text>
   </g>
 </svg>

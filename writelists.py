@@ -17,9 +17,9 @@ HEADER_TEMPLATE = """\
 """
 
 ITEM_TEMPLATE = """\
-## {name} :{shortcode}:
+## {number}. {name} :{shortcode}:
 
-Add an item to explain why you like this {kind}:
+Replace one of the `...` placeholders with a reason why you like this {kind} ({lower}):
 
 - ...
 - ...
@@ -257,8 +257,16 @@ def run(out: list[str], kind: str):
 
 def generate_items(items: list[tuple[str, str]], kind: str) -> str:
     parts = [HEADER_TEMPLATE.format(kind=kind)]
-    for name, shortcode in items:
-        parts.append(ITEM_TEMPLATE.format(name=name.capitalize(), shortcode=shortcode, kind=kind))
+    for number, (name, shortcode) in enumerate(items, start=1):
+        parts.append(
+            ITEM_TEMPLATE.format(
+                number=number,
+                name=name.capitalize(),
+                lower=name,
+                shortcode=shortcode,
+                kind=kind,
+            )
+        )
     return "".join(parts).rstrip() + "\n"
 
 

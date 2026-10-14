@@ -9,11 +9,9 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ## Overview
 
-This tutorial is hosted on GitHub and also serves as an example of how to organize a Git repository.
-
-For the hands-on part, you will use the sandbox repository <https://github.ugent.be/SciCompPhys/sandbox-2026>, where you can experiment and make mistakes without consequences.
-You can read the sandbox, but you cannot make changes in it directly.
-Instead, you will make your own copy, a so-called **fork**, for your edits.
+You will use the sandbox repository <https://github.ugent.be/SciCompPhys/sandbox-2026>, to which you have read-only access.
+Instead of making changes directly in this repository, you will make your own copy, a so-called **fork**, for your edits.
+After you have made your changes, you will submit them for inclusion into the main sandbox repository, through a **pull request**.
 
 This tutorial runs through some essential aspects of collaborative software development:
 

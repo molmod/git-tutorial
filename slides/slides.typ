@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: CC-BY-4.0
 
 // The template packages used here are not (yet) on Typst Universe.
-// See the README for how to make them available to Typst.
+// See instructors.md for how to make them available to Typst.
 #import "@ugentish/animo-ugentish:0.1.0": *
 
 // Fletcher is on Universe, no need to install anything

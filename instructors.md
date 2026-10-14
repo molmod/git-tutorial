@@ -83,9 +83,17 @@ Notes:
   set the environment variable `TYPST_PACKAGE_PATH="${PWD}/.typst-packages/ugentish/typst/packages"`
   and start VS Code from that shell.
 - The workflow in [`.github/workflows/publish.yaml`](.github/workflows/publish.yaml)
-  performs the same steps as above, including the font installation, on a clean Ubuntu machine.
-  It also verifies that the committed tutorials are up to date with their templates.
+  builds the slides (and only the slides) on a clean Ubuntu machine,
+  including the font installation.
+  It does not render the hands-on tutorials, because that requires Inkscape.
   When a tag starting with `v` is pushed, the slides are published as a GitHub release.
+- The committed tutorials in `handson/` are kept up to date with the templates by the local
+  `stepup-handson` hook in [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
+  It reruns `stepup build handson/` and fails when this modifies the committed files.
+  Enable the hooks with `uv run pre-commit install`,
+  so they run before every commit.
+  This hook is skipped on pre-commit.ci, which has no Inkscape.
+  If you do not use the hook, run `stepup build` and commit the rendered files in `handson/` yourself.
 
 ## Setting up a sandbox repository
 
@@ -127,3 +135,33 @@ so make sure they are up to date by running `stepup build` first.
 
    Replace the URL with the SSH (or HTTPS) URL of your new repository,
    which is shown on its (empty) page on GitHub.
+
+## Making a release of the slides
+
+Participants find the slides in the [Releases](https://github.com/molmod/git-tutorial/releases) section.
+They see the date and the file formats (`slides.pdf` and `slides.html`) of every release,
+which also lets them check that they have the version belonging to their session.
+A release is only created by the workflow when a tag starting with `v` is pushed,
+so it must be done by hand before each session:
+
+1. Update the title slide (session names, locations and dates) and the sandbox URLs on the hands-on slides.
+   Check that they match [`installments.toml`](handson/.template/installments.toml).
+
+1. Run `stepup build` and review the slides in `build/slides.pdf`.
+   Commit the changes to the slides and also the rendered tutorials in `handson/`.
+
+1. Push the commit to `main` and wait until the workflow succeeds.
+   A tag on a commit that is not pushed or that does not build produces no release.
+
+1. Create and push a tag, using the date as version, e.g. `v2026.10.15.1`:
+
+   ```bash
+   git tag v2026.10.15.1
+   git push origin v2026.10.15.1
+   ```
+
+   Anything you change afterwards needs a new tag, e.g. `v2026.10.15.2`.
+
+1. Wait for the workflow of the tag to finish and check that the release lists both
+   `slides.pdf` and `slides.html`, e.g. with `gh release view v2026.10.15.1`.
+   Download the PDF and check the date and the sandbox URLs on the title and hands-on slides.

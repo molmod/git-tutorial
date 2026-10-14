@@ -1,824 +1,824 @@
 # Favorite animals
 
-## Ant :ant:
+## 1. Ant :ant:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (ant):
 
 - ...
 - ...
 - ...
 
-## Badger :badger:
+## 2. Badger :badger:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (badger):
 
 - ...
 - ...
 - ...
 
-## Bat :bat:
+## 3. Bat :bat:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (bat):
 
 - ...
 - ...
 - ...
 
-## Bear :bear:
+## 4. Bear :bear:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (bear):
 
 - ...
 - ...
 - ...
 
-## Beaver :beaver:
+## 5. Beaver :beaver:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (beaver):
 
 - ...
 - ...
 - ...
 
-## Bee :bee:
+## 6. Bee :bee:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (bee):
 
 - ...
 - ...
 - ...
 
-## Beetle :beetle:
+## 7. Beetle :beetle:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (beetle):
 
 - ...
 - ...
 - ...
 
-## Bison :bison:
+## 8. Bison :bison:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (bison):
 
 - ...
 - ...
 - ...
 
-## Black cat :black_cat:
+## 9. Black cat :black_cat:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (black cat):
 
 - ...
 - ...
 - ...
 
-## Boar :boar:
+## 10. Boar :boar:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (boar):
 
 - ...
 - ...
 - ...
 
-## Butterfly :butterfly:
+## 11. Butterfly :butterfly:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (butterfly):
 
 - ...
 - ...
 - ...
 
-## Camel :camel:
+## 12. Camel :camel:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (camel):
 
 - ...
 - ...
 - ...
 
-## Caterpillar :bug:
+## 13. Caterpillar :bug:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (caterpillar):
 
 - ...
 - ...
 - ...
 
-## Chick :hatched_chick:
+## 14. Chick :hatched_chick:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (chick):
 
 - ...
 - ...
 - ...
 
-## Chicken :chicken:
+## 15. Chicken :chicken:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (chicken):
 
 - ...
 - ...
 - ...
 
-## Chipmunk :chipmunk:
+## 16. Chipmunk :chipmunk:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (chipmunk):
 
 - ...
 - ...
 - ...
 
-## Cockroach :cockroach:
+## 17. Cockroach :cockroach:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (cockroach):
 
 - ...
 - ...
 - ...
 
-## Cow :cow2:
+## 18. Cow :cow2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (cow):
 
 - ...
 - ...
 - ...
 
-## Crab :crab:
+## 19. Crab :crab:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (crab):
 
 - ...
 - ...
 - ...
 
-## Cricket :cricket:
+## 20. Cricket :cricket:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (cricket):
 
 - ...
 - ...
 - ...
 
-## Crocodile :crocodile:
+## 21. Crocodile :crocodile:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (crocodile):
 
 - ...
 - ...
 - ...
 
-## Crow :black_bird:
+## 22. Crow :black_bird:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (crow):
 
 - ...
 - ...
 - ...
 
-## Deer :deer:
+## 23. Deer :deer:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (deer):
 
 - ...
 - ...
 - ...
 
-## Dodo :dodo:
+## 24. Dodo :dodo:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dodo):
 
 - ...
 - ...
 - ...
 
-## Dog :dog2:
+## 25. Dog :dog2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dog):
 
 - ...
 - ...
 - ...
 
-## Dolphin :dolphin:
+## 26. Dolphin :dolphin:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dolphin):
 
 - ...
 - ...
 - ...
 
-## Donkey :donkey:
+## 27. Donkey :donkey:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (donkey):
 
 - ...
 - ...
 - ...
 
-## Dove :dove:
+## 28. Dove :dove:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dove):
 
 - ...
 - ...
 - ...
 
-## Dragon :dragon:
+## 29. Dragon :dragon:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dragon):
 
 - ...
 - ...
 - ...
 
-## Dromedary :dromedary_camel:
+## 30. Dromedary :dromedary_camel:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (dromedary):
 
 - ...
 - ...
 - ...
 
-## Duck :duck:
+## 31. Duck :duck:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (duck):
 
 - ...
 - ...
 - ...
 
-## Eagle :eagle:
+## 32. Eagle :eagle:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (eagle):
 
 - ...
 - ...
 - ...
 
-## Elephant :elephant:
+## 33. Elephant :elephant:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (elephant):
 
 - ...
 - ...
 - ...
 
-## Flamingo :flamingo:
+## 34. Flamingo :flamingo:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (flamingo):
 
 - ...
 - ...
 - ...
 
-## Fly :fly:
+## 35. Fly :fly:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (fly):
 
 - ...
 - ...
 - ...
 
-## Fox :fox_face:
+## 36. Fox :fox_face:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (fox):
 
 - ...
 - ...
 - ...
 
-## Frog :frog:
+## 37. Frog :frog:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (frog):
 
 - ...
 - ...
 - ...
 
-## Giraffe :giraffe:
+## 38. Giraffe :giraffe:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (giraffe):
 
 - ...
 - ...
 - ...
 
-## Goat :goat:
+## 39. Goat :goat:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (goat):
 
 - ...
 - ...
 - ...
 
-## Goose :goose:
+## 40. Goose :goose:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (goose):
 
 - ...
 - ...
 - ...
 
-## Gorilla :gorilla:
+## 41. Gorilla :gorilla:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (gorilla):
 
 - ...
 - ...
 - ...
 
-## Guide dog :guide_dog:
+## 42. Guide dog :guide_dog:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (guide dog):
 
 - ...
 - ...
 - ...
 
-## Hamster :hamster:
+## 43. Hamster :hamster:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (hamster):
 
 - ...
 - ...
 - ...
 
-## Hedgehog :hedgehog:
+## 44. Hedgehog :hedgehog:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (hedgehog):
 
 - ...
 - ...
 - ...
 
-## Hippopotamus :hippopotamus:
+## 45. Hippopotamus :hippopotamus:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (hippopotamus):
 
 - ...
 - ...
 - ...
 
-## Horse :racehorse:
+## 46. Horse :racehorse:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (horse):
 
 - ...
 - ...
 - ...
 
-## Jellyfish :jellyfish:
+## 47. Jellyfish :jellyfish:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (jellyfish):
 
 - ...
 - ...
 - ...
 
-## Kangaroo :kangaroo:
+## 48. Kangaroo :kangaroo:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (kangaroo):
 
 - ...
 - ...
 - ...
 
-## Koala :koala:
+## 49. Koala :koala:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (koala):
 
 - ...
 - ...
 - ...
 
-## Ladybug :lady_beetle:
+## 50. Ladybug :lady_beetle:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (ladybug):
 
 - ...
 - ...
 - ...
 
-## Leopard :leopard:
+## 51. Leopard :leopard:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (leopard):
 
 - ...
 - ...
 - ...
 
-## Lion :lion:
+## 52. Lion :lion:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (lion):
 
 - ...
 - ...
 - ...
 
-## Lizard :lizard:
+## 53. Lizard :lizard:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (lizard):
 
 - ...
 - ...
 - ...
 
-## Llama :llama:
+## 54. Llama :llama:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (llama):
 
 - ...
 - ...
 - ...
 
-## Lobster :lobster:
+## 55. Lobster :lobster:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (lobster):
 
 - ...
 - ...
 - ...
 
-## Mammoth :mammoth:
+## 56. Mammoth :mammoth:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (mammoth):
 
 - ...
 - ...
 - ...
 
-## Monkey :monkey:
+## 57. Monkey :monkey:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (monkey):
 
 - ...
 - ...
 - ...
 
-## Moose :moose:
+## 58. Moose :moose:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (moose):
 
 - ...
 - ...
 - ...
 
-## Mosquito :mosquito:
+## 59. Mosquito :mosquito:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (mosquito):
 
 - ...
 - ...
 - ...
 
-## Mouse :mouse2:
+## 60. Mouse :mouse2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (mouse):
 
 - ...
 - ...
 - ...
 
-## Octopus :octopus:
+## 61. Octopus :octopus:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (octopus):
 
 - ...
 - ...
 - ...
 
-## Orangutan :orangutan:
+## 62. Orangutan :orangutan:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (orangutan):
 
 - ...
 - ...
 - ...
 
-## Otter :otter:
+## 63. Otter :otter:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (otter):
 
 - ...
 - ...
 - ...
 
-## Owl :owl:
+## 64. Owl :owl:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (owl):
 
 - ...
 - ...
 - ...
 
-## Ox :ox:
+## 65. Ox :ox:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (ox):
 
 - ...
 - ...
 - ...
 
-## Panda :panda_face:
+## 66. Panda :panda_face:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (panda):
 
 - ...
 - ...
 - ...
 
-## Parrot :parrot:
+## 67. Parrot :parrot:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (parrot):
 
 - ...
 - ...
 - ...
 
-## Peacock :peacock:
+## 68. Peacock :peacock:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (peacock):
 
 - ...
 - ...
 - ...
 
-## Penguin :penguin:
+## 69. Penguin :penguin:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (penguin):
 
 - ...
 - ...
 - ...
 
-## Pig :pig2:
+## 70. Pig :pig2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (pig):
 
 - ...
 - ...
 - ...
 
-## Polar bear :polar_bear:
+## 71. Polar bear :polar_bear:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (polar bear):
 
 - ...
 - ...
 - ...
 
-## Poodle :poodle:
+## 72. Poodle :poodle:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (poodle):
 
 - ...
 - ...
 - ...
 
-## Pufferfish :blowfish:
+## 73. Pufferfish :blowfish:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (pufferfish):
 
 - ...
 - ...
 - ...
 
-## Rabbit :rabbit2:
+## 74. Rabbit :rabbit2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (rabbit):
 
 - ...
 - ...
 - ...
 
-## Raccoon :raccoon:
+## 75. Raccoon :raccoon:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (raccoon):
 
 - ...
 - ...
 - ...
 
-## Ram :ram:
+## 76. Ram :ram:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (ram):
 
 - ...
 - ...
 - ...
 
-## Rat :rat:
+## 77. Rat :rat:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (rat):
 
 - ...
 - ...
 - ...
 
-## Rhinoceros :rhinoceros:
+## 78. Rhinoceros :rhinoceros:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (rhinoceros):
 
 - ...
 - ...
 - ...
 
-## Rooster :rooster:
+## 79. Rooster :rooster:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (rooster):
 
 - ...
 - ...
 - ...
 
-## Sauropod :sauropod:
+## 80. Sauropod :sauropod:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (sauropod):
 
 - ...
 - ...
 - ...
 
-## Scorpion :scorpion:
+## 81. Scorpion :scorpion:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (scorpion):
 
 - ...
 - ...
 - ...
 
-## Seal :seal:
+## 82. Seal :seal:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (seal):
 
 - ...
 - ...
 - ...
 
-## Shark :shark:
+## 83. Shark :shark:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (shark):
 
 - ...
 - ...
 - ...
 
-## Sheep :sheep:
+## 84. Sheep :sheep:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (sheep):
 
 - ...
 - ...
 - ...
 
-## Shrimp :shrimp:
+## 85. Shrimp :shrimp:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (shrimp):
 
 - ...
 - ...
 - ...
 
-## Skunk :skunk:
+## 86. Skunk :skunk:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (skunk):
 
 - ...
 - ...
 - ...
 
-## Sloth :sloth:
+## 87. Sloth :sloth:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (sloth):
 
 - ...
 - ...
 - ...
 
-## Snail :snail:
+## 88. Snail :snail:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (snail):
 
 - ...
 - ...
 - ...
 
-## Snake :snake:
+## 89. Snake :snake:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (snake):
 
 - ...
 - ...
 - ...
 
-## Spider :spider:
+## 90. Spider :spider:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (spider):
 
 - ...
 - ...
 - ...
 
-## Squid :squid:
+## 91. Squid :squid:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (squid):
 
 - ...
 - ...
 - ...
 
-## Swan :swan:
+## 92. Swan :swan:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (swan):
 
 - ...
 - ...
 - ...
 
-## Tiger :tiger2:
+## 93. Tiger :tiger2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (tiger):
 
 - ...
 - ...
 - ...
 
-## Tropical fish :tropical_fish:
+## 94. Tropical fish :tropical_fish:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (tropical fish):
 
 - ...
 - ...
 - ...
 
-## Turkey :turkey:
+## 95. Turkey :turkey:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (turkey):
 
 - ...
 - ...
 - ...
 
-## Turtle :turtle:
+## 96. Turtle :turtle:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (turtle):
 
 - ...
 - ...
 - ...
 
-## Tyrannosaurus :t-rex:
+## 97. Tyrannosaurus :t-rex:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (tyrannosaurus):
 
 - ...
 - ...
 - ...
 
-## Unicorn :unicorn:
+## 98. Unicorn :unicorn:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (unicorn):
 
 - ...
 - ...
 - ...
 
-## Water buffalo :water_buffalo:
+## 99. Water buffalo :water_buffalo:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (water buffalo):
 
 - ...
 - ...
 - ...
 
-## Whale :whale2:
+## 100. Whale :whale2:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (whale):
 
 - ...
 - ...
 - ...
 
-## Wolf :wolf:
+## 101. Wolf :wolf:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (wolf):
 
 - ...
 - ...
 - ...
 
-## Worm :worm:
+## 102. Worm :worm:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (worm):
 
 - ...
 - ...
 - ...
 
-## Zebra :zebra:
+## 103. Zebra :zebra:
 
-Add an item to explain why you like this animal:
+Replace one of the `...` placeholders with a reason why you like this animal (zebra):
 
 - ...
 - ...

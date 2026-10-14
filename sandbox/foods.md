@@ -1,856 +1,856 @@
 # Favorite foods
 
-## Apple :apple:
+## 1. Apple :apple:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (apple):
 
 - ...
 - ...
 - ...
 
-## Avocado :avocado:
+## 2. Avocado :avocado:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (avocado):
 
 - ...
 - ...
 - ...
 
-## Bacon :bacon:
+## 3. Bacon :bacon:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bacon):
 
 - ...
 - ...
 - ...
 
-## Bagel :bagel:
+## 4. Bagel :bagel:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bagel):
 
 - ...
 - ...
 - ...
 
-## Baguette :baguette_bread:
+## 5. Baguette :baguette_bread:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (baguette):
 
 - ...
 - ...
 - ...
 
-## Banana :banana:
+## 6. Banana :banana:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (banana):
 
 - ...
 - ...
 - ...
 
-## Beans :beans:
+## 7. Beans :beans:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (beans):
 
 - ...
 - ...
 - ...
 
-## Beer :beer:
+## 8. Beer :beer:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (beer):
 
 - ...
 - ...
 - ...
 
-## Bell pepper :bell_pepper:
+## 9. Bell pepper :bell_pepper:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bell pepper):
 
 - ...
 - ...
 - ...
 
-## Bento box :bento:
+## 10. Bento box :bento:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bento box):
 
 - ...
 - ...
 - ...
 
-## Birthday cake :birthday:
+## 11. Birthday cake :birthday:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (birthday cake):
 
 - ...
 - ...
 - ...
 
-## Blueberries :blueberries:
+## 12. Blueberries :blueberries:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (blueberries):
 
 - ...
 - ...
 - ...
 
-## Bread :bread:
+## 13. Bread :bread:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bread):
 
 - ...
 - ...
 - ...
 
-## Broccoli :broccoli:
+## 14. Broccoli :broccoli:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (broccoli):
 
 - ...
 - ...
 - ...
 
-## Bubble tea :bubble_tea:
+## 15. Bubble tea :bubble_tea:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (bubble tea):
 
 - ...
 - ...
 - ...
 
-## Burrito :burrito:
+## 16. Burrito :burrito:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (burrito):
 
 - ...
 - ...
 - ...
 
-## Butter :butter:
+## 17. Butter :butter:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (butter):
 
 - ...
 - ...
 - ...
 
-## Candy :candy:
+## 18. Candy :candy:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (candy):
 
 - ...
 - ...
 - ...
 
-## Carrot :carrot:
+## 19. Carrot :carrot:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (carrot):
 
 - ...
 - ...
 - ...
 
-## Cheese :cheese:
+## 20. Cheese :cheese:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cheese):
 
 - ...
 - ...
 - ...
 
-## Cherries :cherries:
+## 21. Cherries :cherries:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cherries):
 
 - ...
 - ...
 - ...
 
-## Chestnut :chestnut:
+## 22. Chestnut :chestnut:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (chestnut):
 
 - ...
 - ...
 - ...
 
-## Chocolate :chocolate_bar:
+## 23. Chocolate :chocolate_bar:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (chocolate):
 
 - ...
 - ...
 - ...
 
-## Cocktail :cocktail:
+## 24. Cocktail :cocktail:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cocktail):
 
 - ...
 - ...
 - ...
 
-## Coconut :coconut:
+## 25. Coconut :coconut:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (coconut):
 
 - ...
 - ...
 - ...
 
-## Coffee :coffee:
+## 26. Coffee :coffee:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (coffee):
 
 - ...
 - ...
 - ...
 
-## Cookie :cookie:
+## 27. Cookie :cookie:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cookie):
 
 - ...
 - ...
 - ...
 
-## Corn :corn:
+## 28. Corn :corn:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (corn):
 
 - ...
 - ...
 - ...
 
-## Croissant :croissant:
+## 29. Croissant :croissant:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (croissant):
 
 - ...
 - ...
 - ...
 
-## Cucumber :cucumber:
+## 30. Cucumber :cucumber:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cucumber):
 
 - ...
 - ...
 - ...
 
-## Cupcake :cupcake:
+## 31. Cupcake :cupcake:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (cupcake):
 
 - ...
 - ...
 - ...
 
-## Curry :curry:
+## 32. Curry :curry:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (curry):
 
 - ...
 - ...
 - ...
 
-## Custard :custard:
+## 33. Custard :custard:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (custard):
 
 - ...
 - ...
 - ...
 
-## Dango :dango:
+## 34. Dango :dango:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (dango):
 
 - ...
 - ...
 - ...
 
-## Doughnut :doughnut:
+## 35. Doughnut :doughnut:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (doughnut):
 
 - ...
 - ...
 - ...
 
-## Dumpling :dumpling:
+## 36. Dumpling :dumpling:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (dumpling):
 
 - ...
 - ...
 - ...
 
-## Egg :egg:
+## 37. Egg :egg:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (egg):
 
 - ...
 - ...
 - ...
 
-## Eggplant :eggplant:
+## 38. Eggplant :eggplant:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (eggplant):
 
 - ...
 - ...
 - ...
 
-## Falafel :falafel:
+## 39. Falafel :falafel:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (falafel):
 
 - ...
 - ...
 - ...
 
-## Fish cake :fish_cake:
+## 40. Fish cake :fish_cake:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (fish cake):
 
 - ...
 - ...
 - ...
 
-## Flatbread :flatbread:
+## 41. Flatbread :flatbread:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (flatbread):
 
 - ...
 - ...
 - ...
 
-## Fondue :fondue:
+## 42. Fondue :fondue:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (fondue):
 
 - ...
 - ...
 - ...
 
-## Fortune cookie :fortune_cookie:
+## 43. Fortune cookie :fortune_cookie:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (fortune cookie):
 
 - ...
 - ...
 - ...
 
-## French fries :fries:
+## 44. French fries :fries:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (french fries):
 
 - ...
 - ...
 - ...
 
-## Fried egg :fried_egg:
+## 45. Fried egg :fried_egg:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (fried egg):
 
 - ...
 - ...
 - ...
 
-## Fried shrimp :fried_shrimp:
+## 46. Fried shrimp :fried_shrimp:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (fried shrimp):
 
 - ...
 - ...
 - ...
 
-## Garlic :garlic:
+## 47. Garlic :garlic:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (garlic):
 
 - ...
 - ...
 - ...
 
-## Ginger :ginger_root:
+## 48. Ginger :ginger_root:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (ginger):
 
 - ...
 - ...
 - ...
 
-## Grapes :grapes:
+## 49. Grapes :grapes:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (grapes):
 
 - ...
 - ...
 - ...
 
-## Green apple :green_apple:
+## 50. Green apple :green_apple:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (green apple):
 
 - ...
 - ...
 - ...
 
-## Green salad :green_salad:
+## 51. Green salad :green_salad:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (green salad):
 
 - ...
 - ...
 - ...
 
-## Hamburger :hamburger:
+## 52. Hamburger :hamburger:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (hamburger):
 
 - ...
 - ...
 - ...
 
-## Honey :honey_pot:
+## 53. Honey :honey_pot:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (honey):
 
 - ...
 - ...
 - ...
 
-## Hot dog :hotdog:
+## 54. Hot dog :hotdog:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (hot dog):
 
 - ...
 - ...
 - ...
 
-## Hot pepper :hot_pepper:
+## 55. Hot pepper :hot_pepper:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (hot pepper):
 
 - ...
 - ...
 - ...
 
-## Ice cream :ice_cream:
+## 56. Ice cream :ice_cream:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (ice cream):
 
 - ...
 - ...
 - ...
 
-## Kiwi :kiwi_fruit:
+## 57. Kiwi :kiwi_fruit:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (kiwi):
 
 - ...
 - ...
 - ...
 
-## Leafy greens :leafy_green:
+## 58. Leafy greens :leafy_green:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (leafy greens):
 
 - ...
 - ...
 - ...
 
-## Lemon :lemon:
+## 59. Lemon :lemon:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (lemon):
 
 - ...
 - ...
 - ...
 
-## Lollipop :lollipop:
+## 60. Lollipop :lollipop:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (lollipop):
 
 - ...
 - ...
 - ...
 
-## Mango :mango:
+## 61. Mango :mango:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (mango):
 
 - ...
 - ...
 - ...
 
-## Mate :mate:
+## 62. Mate :mate:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (mate):
 
 - ...
 - ...
 - ...
 
-## Meat on the bone :meat_on_bone:
+## 63. Meat on the bone :meat_on_bone:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (meat on the bone):
 
 - ...
 - ...
 - ...
 
-## Melon :melon:
+## 64. Melon :melon:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (melon):
 
 - ...
 - ...
 - ...
 
-## Milk :milk_glass:
+## 65. Milk :milk_glass:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (milk):
 
 - ...
 - ...
 - ...
 
-## Moon cake :moon_cake:
+## 66. Moon cake :moon_cake:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (moon cake):
 
 - ...
 - ...
 - ...
 
-## Mushroom :mushroom:
+## 67. Mushroom :mushroom:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (mushroom):
 
 - ...
 - ...
 - ...
 
-## Oden :oden:
+## 68. Oden :oden:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (oden):
 
 - ...
 - ...
 - ...
 
-## Olive :olive:
+## 69. Olive :olive:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (olive):
 
 - ...
 - ...
 - ...
 
-## Onion :onion:
+## 70. Onion :onion:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (onion):
 
 - ...
 - ...
 - ...
 
-## Orange :tangerine:
+## 71. Orange :tangerine:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (orange):
 
 - ...
 - ...
 - ...
 
-## Oyster :oyster:
+## 72. Oyster :oyster:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (oyster):
 
 - ...
 - ...
 - ...
 
-## Pancakes :pancakes:
+## 73. Pancakes :pancakes:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pancakes):
 
 - ...
 - ...
 - ...
 
-## Peach :peach:
+## 74. Peach :peach:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (peach):
 
 - ...
 - ...
 - ...
 
-## Peanuts :peanuts:
+## 75. Peanuts :peanuts:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (peanuts):
 
 - ...
 - ...
 - ...
 
-## Pear :pear:
+## 76. Pear :pear:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pear):
 
 - ...
 - ...
 - ...
 
-## Peas :pea_pod:
+## 77. Peas :pea_pod:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (peas):
 
 - ...
 - ...
 - ...
 
-## Pie :pie:
+## 78. Pie :pie:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pie):
 
 - ...
 - ...
 - ...
 
-## Pineapple :pineapple:
+## 79. Pineapple :pineapple:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pineapple):
 
 - ...
 - ...
 - ...
 
-## Pizza :pizza:
+## 80. Pizza :pizza:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pizza):
 
 - ...
 - ...
 - ...
 
-## Popcorn :popcorn:
+## 81. Popcorn :popcorn:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (popcorn):
 
 - ...
 - ...
 - ...
 
-## Potato :potato:
+## 82. Potato :potato:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (potato):
 
 - ...
 - ...
 - ...
 
-## Poultry leg :poultry_leg:
+## 83. Poultry leg :poultry_leg:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (poultry leg):
 
 - ...
 - ...
 - ...
 
-## Pretzel :pretzel:
+## 84. Pretzel :pretzel:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (pretzel):
 
 - ...
 - ...
 - ...
 
-## Ramen :ramen:
+## 85. Ramen :ramen:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (ramen):
 
 - ...
 - ...
 - ...
 
-## Rice :rice:
+## 86. Rice :rice:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (rice):
 
 - ...
 - ...
 - ...
 
-## Rice ball :rice_ball:
+## 87. Rice ball :rice_ball:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (rice ball):
 
 - ...
 - ...
 - ...
 
-## Rice cracker :rice_cracker:
+## 88. Rice cracker :rice_cracker:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (rice cracker):
 
 - ...
 - ...
 - ...
 
-## Sake :sake:
+## 89. Sake :sake:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (sake):
 
 - ...
 - ...
 - ...
 
-## Sandwich :sandwich:
+## 90. Sandwich :sandwich:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (sandwich):
 
 - ...
 - ...
 - ...
 
-## Shaved ice :shaved_ice:
+## 91. Shaved ice :shaved_ice:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (shaved ice):
 
 - ...
 - ...
 - ...
 
-## Shortcake :cake:
+## 92. Shortcake :cake:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (shortcake):
 
 - ...
 - ...
 - ...
 
-## Soft ice cream :icecream:
+## 93. Soft ice cream :icecream:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (soft ice cream):
 
 - ...
 - ...
 - ...
 
-## Spaghetti :spaghetti:
+## 94. Spaghetti :spaghetti:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (spaghetti):
 
 - ...
 - ...
 - ...
 
-## Steak :cut_of_meat:
+## 95. Steak :cut_of_meat:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (steak):
 
 - ...
 - ...
 - ...
 
-## Stew :stew:
+## 96. Stew :stew:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (stew):
 
 - ...
 - ...
 - ...
 
-## Strawberry :strawberry:
+## 97. Strawberry :strawberry:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (strawberry):
 
 - ...
 - ...
 - ...
 
-## Stuffed flatbread :stuffed_flatbread:
+## 98. Stuffed flatbread :stuffed_flatbread:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (stuffed flatbread):
 
 - ...
 - ...
 - ...
 
-## Sushi :sushi:
+## 99. Sushi :sushi:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (sushi):
 
 - ...
 - ...
 - ...
 
-## Sweet potato :sweet_potato:
+## 100. Sweet potato :sweet_potato:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (sweet potato):
 
 - ...
 - ...
 - ...
 
-## Taco :taco:
+## 101. Taco :taco:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (taco):
 
 - ...
 - ...
 - ...
 
-## Tamale :tamale:
+## 102. Tamale :tamale:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (tamale):
 
 - ...
 - ...
 - ...
 
-## Tea :tea:
+## 103. Tea :tea:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (tea):
 
 - ...
 - ...
 - ...
 
-## Tomato :tomato:
+## 104. Tomato :tomato:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (tomato):
 
 - ...
 - ...
 - ...
 
-## Waffle :waffle:
+## 105. Waffle :waffle:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (waffle):
 
 - ...
 - ...
 - ...
 
-## Watermelon :watermelon:
+## 106. Watermelon :watermelon:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (watermelon):
 
 - ...
 - ...
 - ...
 
-## Wine :wine_glass:
+## 107. Wine :wine_glass:
 
-Add an item to explain why you like this food:
+Replace one of the `...` placeholders with a reason why you like this food (wine):
 
 - ...
 - ...

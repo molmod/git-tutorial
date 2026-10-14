@@ -7,24 +7,23 @@ SPDX-License-Identifier: CC-BY-4.0
 [![Publish Slides](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml/badge.svg)](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/molmod/git-tutorial/main.svg)](https://results.pre-commit.ci/latest/github/molmod/git-tutorial/main)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Supported typst release](https://img.shields.io/badge/typst-0.15.0-239dad?logo=typst&logoColor=white)](https://github.com/typst/typst/releases/tag/v0.15.0)
+[![Supported typst release](https://img.shields.io/badge/typst-0.15.1-239dad?logo=typst&logoColor=white)](https://github.com/typst/typst/releases/tag/v0.15.1)
 
 # CMM Git(Hub) tutorial
 
-## Overview
+This repository contains the course materials for the CMM Git(Hub) tutorial.
 
-This repository contains the source materials for the CMM Git(Hub) tutorial.
+## For Students or Trainees
 
 1. Start with the tutorial slides, which are available in the [Releases](https://github.com/molmod/git-tutorial/releases) section of this repository.
    (These will be presented during the live tutorial session.)
 
-1. The tutorial details depend on which installment of this training you follow.
-   Click on the right link to proceed to the right tutorial:
+1. Proceed to the hands-on tutorial that matches the group you belong to:
 
    - [Student of the Scientific Computing for Physicists course](handson/scicompphys/README.md)
    - [Participants of the Git(Hub) & Coffee training](handson/andcoffee/README.md)
 
-## Information for Instructors
+## For Instructors
 
 Steps for building the course material from source and setting up a sandbox can be found in
 [`instructors.md`](instructors.md).
