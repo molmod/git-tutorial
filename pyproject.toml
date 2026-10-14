@@ -6,11 +6,11 @@ name = "git-tutorial"
 version = "0.0.0"
 description = "Slides and hands-on tutorials of the CMM Git(Hub) tutorial"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "pre-commit>=4.6.0",
     "stepup>=4.0.3",
-    "stepup-reprep>=4.0.1",
+    "stepup-reprep>=4.0.2",
 ]
 
 [tool.uv]

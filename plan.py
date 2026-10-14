@@ -19,8 +19,8 @@ from stepup.reprep.api import compile_typst
 # Other packages, such as Animo, are downloaded by Typst from Universe.
 static("slides/", ".typst-packages/ugentish/")
 TYPST_ARGS = ["--package-path=.typst-packages/ugentish/typst/packages"]
-compile_typst("slides/slides.typ", "slides.pdf", typst_args=TYPST_ARGS)
-compile_typst("slides/slides.typ", "slides.html", typst_args=TYPST_ARGS)
+compile_typst("slides/slides.typ", "build/slides.pdf", typst_args=TYPST_ARGS)
+compile_typst("slides/slides.typ", "build/slides.html", typst_args=TYPST_ARGS)
 
 # Hands-on tutorials
 # ------------------

@@ -14,8 +14,7 @@ uv.lock
 # StepUp and workflow outputs
 # (The rendered tutorials in handson/ are committed, so they can be read on GitHub.)
 .stepup
-*.pdf
-/slides.html
+build
 
 # Typst packages cloned locally, see README.md
 /.typst-packages

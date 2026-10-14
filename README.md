@@ -23,7 +23,8 @@ This repository contains the source materials for the CMM Git(Hub) tutorial.
 
 ## Information for Instructors
 
-See [`instructors.md`](instructors.md).
+Steps for building the course material from source and setting up a sandbox can be found in
+[`instructors.md`](instructors.md).
 
 ## License
 
