@@ -69,15 +69,10 @@ jobs:
       - name: Create Python environment with StepUp
         run: uv sync
 
-      - name: Run the StepUp workflow
-        run: uv run stepup build
-
-      # The rendered tutorials are committed, so participants can read them on GitHub.
-      # This step fails when they are out of sync with their templates.
-      - name: Check that the rendered tutorials are up to date
-        run: |
-          git status --porcelain handson/
-          test -z "$(git status --porcelain handson/)"
+      # Only the slides are built here.
+      # The rendered tutorials in handson/ are committed and need Inkscape to render.
+      - name: Compile the slides with StepUp
+        run: uv run stepup build build/slides.pdf build/slides.html
 
       - name: Upload slides artifact
         uses: actions/upload-artifact@v7
@@ -104,5 +99,5 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: |
-            build/slides.pdf
-            build/slides.html
+            slides.pdf
+            slides.html

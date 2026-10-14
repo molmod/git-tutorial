@@ -1,6 +1,10 @@
 # SPDX-FileCopyrightText: 2026 Toon Verstraelen <Toon.Verstraelen@UGent.be>
 # SPDX-License-Identifier: CC-BY-4.0
 
+# Rendering the tutorials needs Inkscape, which is not available on pre-commit.ci.
+ci:
+  skip: [stepup-handson]
+
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v6.0.0
@@ -34,7 +38,7 @@ repos:
   hooks:
   - id: mdformat
     # Jinja placeholders in link destinations are not valid Markdown.
-    # The rendered tutorials are checked instead.
+    # The rendered tutorials are checked instead (see the stepup-handson hook).
     exclude: ^handson/\.template/
     additional_dependencies:
       - mdformat-gfm
@@ -48,3 +52,13 @@ repos:
   rev: 0.37.2
   hooks:
     - id: check-github-workflows
+- repo: local
+  hooks:
+    # Render the tutorials from their templates and let pre-commit fail
+    # when this modifies the committed files in handson/.
+    - id: stepup-handson
+      name: render hands-on tutorials
+      entry: uv run stepup build --no-progress handson/
+      language: system
+      files: ^(handson/|plan\.py$|bakesvg\.py$|pyproject\.toml$)
+      pass_filenames: false

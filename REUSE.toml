@@ -3,9 +3,12 @@
 
 version = 1
 
-# PNGs were created by the author.
+# Bitmaps were created by the author.
 [[annotations]]
-path = "handson/**/*.png"
+path = [
+    "handson/**/*.png",
+    "handson/**/*.webp",
+]
 precedence = "override"
 SPDX-FileCopyrightText = "Toon Verstraelen"
 SPDX-License-Identifier = "CC-BY-4.0"

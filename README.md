@@ -5,6 +5,9 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ![License](https://img.shields.io/github/license/molmod/git-tutorial)
 [![Publish Slides](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml/badge.svg)](https://github.com/molmod/git-tutorial/actions/workflows/publish.yaml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/molmod/git-tutorial/main.svg)](https://results.pre-commit.ci/latest/github/molmod/git-tutorial/main)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Supported typst release](https://img.shields.io/badge/typst-0.15.0-239dad?logo=typst&logoColor=white)](https://github.com/typst/typst/releases/tag/v0.15.0)
 
 # CMM Git(Hub) tutorial
 

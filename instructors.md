@@ -16,6 +16,9 @@ The tutorials are rendered from [Jinja](https://jinja.palletsprojects.com/) temp
 [`handson/.template/`](handson/.template/).
 This includes the figure `git_workflow.svg`, whose repository URLs are Jinja placeholders.
 It can still be edited in Inkscape, which keeps the placeholders as plain text.
+GitHub does not load linked bitmaps and fonts in SVG files shown in Markdown.
+Therefore, the rendered `github_ssh_url.svg` is post-processed by
+[`bakesvg.py`](bakesvg.py): text is converted to paths and the WebP screenshot is embedded.
 The installments of the training are defined in
 [`handson/.template/installments.toml`](handson/.template/installments.toml),
 which sets the audience and the sandbox repository of each installment.
@@ -26,6 +29,9 @@ Do not edit them directly: change the templates and rerun the workflow instead.
 ## Requirements
 
 - [Typst](https://typst.app/) (version 0.15.1) must be installed.
+
+- [Inkscape](https://inkscape.org/) must be installed (and be on the `PATH`).
+  It converts the text in SVG figures that embed a bitmap to paths.
 
 - [uv](https://docs.astral.sh/uv/) is used to create a Python virtual environment with StepUp.
 
