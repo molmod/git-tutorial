@@ -21,16 +21,33 @@ jobs:
 
       # Fonts used by the UGentish templates.
       # (Typst finds them in ~/.local/share/fonts)
+      # The font files are cached, because the CTAN mirrors are occasionally unreachable.
+      # Increment the version in the key when the font downloads below change.
+      - name: Cache fonts
+        id: fonts-cache
+        uses: actions/cache@v5
+        with:
+          path: ~/.local/share/fonts
+          key: fonts-v1
+
       - name: Download and install fonts
+        if: steps.fonts-cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p ~/.local/share/fonts
-          curl -fsSL https://github.com/adobe-fonts/source-sans/releases/download/3.052R/TTF-source-sans-3.052R.zip -o source-sans.zip
-          curl -fsSL "https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/TTF-source-code-pro-2.042R-u_1.062R-i.zip" -o source-code-pro.zip
-          curl -fsSL https://mirrors.ctan.org/fonts/erewhon-math.zip -o erewhon-math.zip
+          CURL="curl -fsSL --connect-timeout 15 --max-time 120 --retry 5 --retry-delay 5 --retry-all-errors"
+          $CURL https://github.com/adobe-fonts/source-sans/releases/download/3.052R/TTF-source-sans-3.052R.zip -o source-sans.zip
+          $CURL "https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/TTF-source-code-pro-2.042R-u_1.062R-i.zip" -o source-code-pro.zip
+          # The mirrors.ctan.org redirector may pick a broken mirror, so try fixed mirrors too.
+          for mirror in https://mirrors.ctan.org https://ftp.fau.de/ctan https://mirror.init7.net/ctan https://ctan.math.illinois.edu; do
+            $CURL "$mirror/fonts/erewhon-math.zip" -o erewhon-math.zip && break
+          done
+          test -s erewhon-math.zip
           unzip -j -o -q source-sans.zip "TTF/*.ttf" -d ~/.local/share/fonts
           unzip -j -o -q source-code-pro.zip "TTF/*.ttf" -d ~/.local/share/fonts
           unzip -j -o -q erewhon-math.zip "erewhon-math/*.otf" -d ~/.local/share/fonts
-          fc-cache -f
+
+      - name: Refresh font cache
+        run: fc-cache -f
 
       - name: Install Typst 0.15.1
         uses: typst-community/setup-typst@v5
