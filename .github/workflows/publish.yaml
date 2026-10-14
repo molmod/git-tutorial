@@ -84,8 +84,8 @@ jobs:
         with:
           name: slides
           path: |
-            slides.pdf
-            slides.html
+            build/slides.pdf
+            build/slides.html
 
   release:
     needs: build
@@ -104,5 +104,5 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: |
-            slides.pdf
-            slides.html
+            build/slides.pdf
+            build/slides.html
