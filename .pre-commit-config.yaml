@@ -52,6 +52,12 @@ repos:
   rev: 0.37.2
   hooks:
     - id: check-github-workflows
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.15.21
+  hooks:
+    - id: ruff-format
+    - id: ruff-check
+      args: ["--fix", "--show-fixes"]
 - repo: local
   hooks:
     # Render the tutorials from their templates and let pre-commit fail
