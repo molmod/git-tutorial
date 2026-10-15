@@ -22,7 +22,13 @@ The goal of this guide is to replicate the workflow of [`handson_web.md`](handso
 using a terminal-based Git client, instead of the web interface of GitHub.
 Some familiarity with virtual terminals and the [`nano`](https://www.nano-editor.org/) editor is assumed.
 
-The guide has three parts:
+> **:scream: :exploding_head: ?? NEW TO TERMINALS ?? :boom: :face_with_head_bandage:**
+>
+> If you are new to terminals, we recommend the course recordings of
+> [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/),
+> which will teach you all the basics needed to follow this guide (and much more).
+
+This guide has three parts:
 
 1. **Set-up** (needed once per computer or account):
    [Where to work](#where-to-work), [Configure Git](#configure-git) and [Configure SSH](#configure-ssh).
